@@ -1,0 +1,1290 @@
+[]--[]--2020-10-28 13:35:51.960 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ============== Files deleted successfully!
+[]--[]--2020-10-28 13:37:14.862 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ============== is exist: false
+[]--[]--2020-10-28 13:37:14.868 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ============== is exist: false
+[]--[]--2020-10-28 13:37:14.868 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ============== Files deleted successfully!
+[]--[]--2020-10-28 13:39:30.240 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ===== file: /Users/jiangyupeng/Desktop/iid-sslkey123321.crt
+[]--[]--2020-10-28 13:39:30.244 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: false
+[]--[]--2020-10-28 13:39:30.245 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:39:30.245 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ===== file: /Users/jiangyupeng/Desktop/iid-sslkey123321.key
+[]--[]--2020-10-28 13:39:30.245 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: false
+[]--[]--2020-10-28 13:39:30.245 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:41:11.550 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============folder: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-28 13:41:11.557 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ===== file: /Users/jiangyupeng/Desktop/iid-sslkey123321.crt
+[]--[]--2020-10-28 13:41:11.557 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: false
+[]--[]--2020-10-28 13:41:11.558 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:41:11.558 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ===== file: /Users/jiangyupeng/Desktop/iid-sslkey123321.key
+[]--[]--2020-10-28 13:41:11.558 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: false
+[]--[]--2020-10-28 13:41:11.558 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:42:33.672 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: true
+[]--[]--2020-10-28 13:42:33.679 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:42:33.679 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: true
+[]--[]--2020-10-28 13:42:33.680 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:46:50.697 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ----
+[]--[]--2020-10-28 13:47:06.382 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ----
+[]--[]--2020-10-28 13:47:16.447 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : CreateRootCertParams(dnsArray=[dns01, dns02], ipArray=[www.baidu.com, www.google.com])
+[]--[]--2020-10-28 13:47:33.791 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : x509 cert 01
+[]--[]--2020-10-28 13:48:32.362 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-28 13:48:32.369 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-28 13:48:32.372 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ Create CA cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/373830398178541568.key -out /Users/jiangyupeng/Desktop/iid-sslkey/373830398178541568.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-28 13:50:23.959 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-28 13:50:23.965 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-28 13:50:23.966 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ Create CA cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/373830866261950464.key -out /Users/jiangyupeng/Desktop/iid-sslkey/373830866261950464.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-28 13:50:24.026 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : =============== 创建 .crt and .key 文件成功
+[]--[]--2020-10-28 13:50:24.308 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : =========== rootCert: RootCert(id=373830866261950464, name=null, code=null, accountId=null, creatorId=null, mainPubEncKey=-----BEGIN CERTIFICATE-----
+MIICHTCCAYYCCQDczydJGOBNBzANBgkqhkiG9w0BAQsFADBSMQswCQYDVQQGEwJD
+TjEMMAoGA1UECAwDaWlkMQwwCgYDVQQHDANpaWQxDDAKBgNVBAoMA2lpZDEMMAoG
+A1UECwwDaWlkMQswCQYDVQQDDAJjYTAgFw0yMDEwMjgwNTUwMjRaGA8yMTIwMTAw
+NDA1NTAyNFowUjELMAkGA1UEBhMCQ04xDDAKBgNVBAgMA2lpZDEMMAoGA1UEBwwD
+aWlkMQwwCgYDVQQKDANpaWQxDDAKBgNVBAsMA2lpZDELMAkGA1UEAwwCY2EwgZ8w
+DQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKAI0CGDTnXeGwZofUYwo+W15+vBNtVr
+3oRWgk9pzlGJiDe3r1qgAJ4RDU+wOXyN8iz5md44cN7Bil1qhsqUfTPPXIZkT04T
+L0KubRLrmTgH7/TwM/QngJc00fr3+Mmcr4GFXA70AePE2gglyYZxejulfENcQ/T5
+UxcBB7nvw4q/AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAft29ShwcO0EMBma3W+5R
++CV+N781dF9RqMZkbf11BKRKnAaaG6Ew/MI4jYEbB0+GwqHiBfYjyF0erwsKDI7U
+ljilfDld2tplXT78IkG7i523v3PBA5FB0xRRMCASt2nc2tjzOAiF3mJtUK0e9TOp
+w9HLqbcL4Ygjw+r9yLzqRjA=
+-----END CERTIFICATE-----
+, mainPriEncKey=-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIICzzBJBgkqhkiG9w0BBQ0wPDAbBgkqhkiG9w0BBQwwDgQI4509z54AbW0CAggA
+MB0GCWCGSAFlAwQBKgQQuvO3jDfWk3QBOi2Lko1NBASCAoCiL3XMnMohGgi2vW+G
+AdmrHlqoAR7V4h6jbHHGUja8YSOIG4bF4TMp82/3CvvPLfGp4HbV6NgVTTyru9oH
+/bWf5vx2zGDPVghZq+6otaSwcoxB/gaiULeEIAushnaIeRjKftdZzC1nB8l38DBT
+KXeAU/dTf4Hete7/WUrQgWasiss/A456OWc38+2i3kZBe3Rd/nk9UIabuebGSLGO
+a+U34POOzsKl9AYEZkO6OZkEfrqTZnDyq0mtnBd8w1WZmgdl4XAUoyQMFRGGPY0s
+BiXTWOWYfOpSeEe3pnLAyfJ6eYU7tTDtv0A1n0AzPSesL+F10WJ5I/38SWi3iXom
+lqqR3swYNCNazXCZha30vSyrY5dyex5ZgTv637QYjMmFbIdIZB5OebtdyJSjzKG0
+wijJEYUqH0VnPDc2uy/wJEFPiZaKitOmqnmKVMyI0cnlNVD/RdsoJgAanY0EoEri
+QDJ8UEiEcKh+93EXEh9en/Jx0IyzoNsf/q4XZb6b9z36bX6CyBGRLijrXJxAZ4j7
+x4lvy+zbb/k7knm74EX3zbSnsc1f+CWWW7mRmm2O2TeAt3zaQui1rqiyymvtuaPz
+kDz/macKCaK4QUY5HOUuNw4gOtGH5wrFDmmDbmDdG7vS7TzJnIYTucgaxUwVFv0K
+uJrxhRPaTRXFV60L++8vewrgTPqOrbez9u7T3VGxb4iRZA1iFPh7O2GH6jLUoSB1
+d9C1ewOIwg/gcM/lMxquKH1/Wpura1bCyA1cyaoCKjkeNH9C52z5hH2rYnDlmWJy
+27FK8EQj8wtNQofxnQ9TAY23Zmm/XKIIPNL/523l9tzrFFF5Hd2WFqhX1KiAd7Ra
+ict5
+-----END ENCRYPTED PRIVATE KEY-----
+, mainPubVfyKey=null, mainPriVfyKey=null, type=x509, certName=x509 cert 01, rsaCount=1024, password=22446688, days=36500, status=0, source=internal, dnsList=["dns01","dns02"], ipList=["www.baidu.com","www.google.com"], subject={"c":"CN","st":"iid","l":"iid","o":"iid","ou":"iid","cn":"ca"}, createdTime=Wed Oct 28 13:50:24 CST 2020, updatedTime=Wed Oct 28 13:50:24 CST 2020)
+[]--[]--2020-10-28 13:50:24.308 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: true
+[]--[]--2020-10-28 13:50:24.309 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 13:50:24.309 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============before: is exist: true
+[]--[]--2020-10-28 13:50:24.309 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : ==============after: is exist: false
+[]--[]--2020-10-28 15:37:15.791 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Starting IIDApplication on JiangYuPengdeMacBook-Pro.local with PID 10166 (/Users/jiangyupeng/Java/Company/iid-service/out/production/classes started by jiangyupeng in /Users/jiangyupeng/Java/Company/iid-service)
+[]--[]--2020-10-28 15:37:15.794 DEBUG--[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+[]--[]--2020-10-28 15:37:15.794 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : The following profiles are active: prod
+[]--[]--2020-10-28 15:37:15.942 INFO --[  restartedMain]
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c2417a8: startup date [Wed Oct 28 15:37:15 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:37:16.902 INFO --[  restartedMain]
+                o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'httpSessionManager' with a different definition: replacing [Generic bean: class [org.keycloak.adapters.springsecurity.management.HttpSessionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=httpSessionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/inspur/iam/adapter/config/SecurityConfig.class]]
+[]--[]--2020-10-28 15:37:17.372 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-28 15:37:17.414 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-28 15:37:17.471 INFO --[  restartedMain]
+                o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[]--[]--2020-10-28 15:37:17.952 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[]--[]--2020-10-28 15:37:17.960 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[]--[]--2020-10-28 15:37:18.064 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$bf791d2d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-28 15:37:18.170 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f90d5eff] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-28 15:37:18.380 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$63ff1a2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-28 15:37:19.223 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+[]--[]--2020-10-28 15:37:19.246 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[]--[]--2020-10-28 15:37:19.246 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[]--[]--2020-10-28 15:37:19.249 INFO --[localhost-startStop-1]
+                o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jiangyupeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[]--[]--2020-10-28 15:37:19.341 INFO --[localhost-startStop-1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[]--[]--2020-10-28 15:37:19.341 INFO --[localhost-startStop-1]
+                o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3399 ms
+[]--[]--2020-10-28 15:37:21.459 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.460 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.461 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.461 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.461 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.462 INFO --[localhost-startStop-1]
+                o.s.b.w.s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[]--[]--2020-10-28 15:37:21.462 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'securityContextFilter' to urls: [/*]
+[]--[]--2020-10-28 15:37:21.462 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpTraceFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.462 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+[]--[]--2020-10-28 15:37:21.462 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakPreAuthActionsFilter was not registered (disabled)
+[]--[]--2020-10-28 15:37:21.463 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticatedActionsFilter was not registered (disabled)
+[]--[]--2020-10-28 15:37:21.463 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakSecurityContextRequestFilter was not registered (disabled)
+[]--[]--2020-10-28 15:37:21.463 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.463 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'repeatedlyReadFilter' to: [/*]
+[]--[]--2020-10-28 15:37:21.464 INFO --[localhost-startStop-1]
+                o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+[]--[]--2020-10-28 15:37:21.484 DEBUG--[localhost-startStop-1]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.init()......
+[]--[]--2020-10-28 15:37:21.683 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-28 15:37:22.814 ERROR--[  restartedMain]
+                com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:166)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:111)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e.CGLIB$jpaVendorAdapter$10(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e$$FastClassBySpringCGLIB$$6d3d1db2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.inspur.cloud.IIDApplication.main(IIDApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 90 common frames omitted
+[]--[]--2020-10-28 15:37:22.822 WARN --[  restartedMain]
+                o.s.b.a.orm.jpa.DatabaseLookup           : Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta-data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:328)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:356)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:166)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:111)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e.CGLIB$jpaVendorAdapter$10(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e$$FastClassBySpringCGLIB$$6d3d1db2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1135)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:818)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:724)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:474)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.inspur.cloud.IIDApplication.main(IIDApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:81)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:319)
+	... 66 common frames omitted
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	... 67 common frames omitted
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 90 common frames omitted
+[]--[]--2020-10-28 15:37:22.840 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-28 15:37:23.865 ERROR--[  restartedMain]
+                com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:123)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$0(HibernateJpaConfiguration.java:132)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:53)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.determineDdlAuto(JpaProperties.java:247)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getAdditionalProperties(JpaProperties.java:216)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.access$000(JpaProperties.java:169)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.getHibernateProperties(JpaProperties.java:153)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:134)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:136)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e.CGLIB$entityManagerFactory$8(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e$$FastClassBySpringCGLIB$$6d3d1db2.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$17e4216e.entityManagerFactory(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.inspur.cloud.IIDApplication.main(IIDApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 68 common frames omitted
+[]--[]--2020-10-28 15:37:23.912 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-28 15:37:23.932 INFO --[  restartedMain]
+                o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[]--[]--2020-10-28 15:37:24.053 INFO --[  restartedMain]
+                org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+[]--[]--2020-10-28 15:37:24.055 INFO --[  restartedMain]
+                org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[]--[]--2020-10-28 15:37:24.149 INFO --[  restartedMain]
+                org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[]--[]--2020-10-28 15:37:24.322 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-28 15:37:25.341 ERROR--[  restartedMain]
+                com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:259)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:233)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:242)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:210)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:861)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:888)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:57)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:377)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1089)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:859)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.inspur.cloud.IIDApplication.main(IIDApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 64 common frames omitted
+[]--[]--2020-10-28 15:37:25.343 WARN --[  restartedMain]
+                o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata : Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[]--[]--2020-10-28 15:37:25.361 INFO --[  restartedMain]
+                org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[]--[]--2020-10-28 15:37:25.390 INFO --[  restartedMain]
+                o.h.e.j.e.internal.LobCreatorBuilderImpl : HHH000422: Disabling contextual LOB creation as connection was null
+[]--[]--2020-10-28 15:37:25.777 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-28 15:37:25.842 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] there is no iam folder in Resource!
+[]--[]--2020-10-28 15:37:25.843 DEBUG--[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] projectPath: /Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/com.inspur.iam/iam-adapter-java/1.9.7/6706f5ae335155c33a45369c1400847f77286669
+[]--[]--2020-10-28 15:37:25.843 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.LiquiabseInit] there is no liquibase-xml in local directory!
+[]--[]--2020-10-28 15:37:25.858 DEBUG--[  restartedMain]
+                com.inspur.iam.adapter.util.VersionUtil  : [VersionUtil.uploadVersion] adaper version: 1.9.7
+[]--[]--2020-10-28 15:37:26.525 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 开始创建RestTemplate-->[tokenType=USER,timeZone=GMT,WriteDatesAsTimestamps=null,referer=https://console1.cloud.inspur.com/,connectionRequestTimeout=0,ConnectTimeout=0,ReadTimeout=0]
+[]--[]--2020-10-28 15:37:26.536 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 创建RestTemplate完成-->org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate@fa40eb5
+[]--[]--2020-10-28 15:37:26.696 DEBUG--[  restartedMain]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 注入ApplicationContext到SpringContextHolder:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c2417a8: startup date [Wed Oct 28 15:37:15 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:37:26.894 INFO --[  restartedMain]
+                o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@338a6363, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a25df72, org.springframework.security.web.header.HeaderWriterFilter@14f50c2d, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@4a899f41, org.springframework.security.web.authentication.logout.LogoutFilter@3dcc876, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@1cfa86f9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59caff9a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c4bb855, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@3361ac41, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@2c3f875d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@14938808, org.springframework.security.web.session.SessionManagementFilter@3fabb583, org.springframework.security.web.access.ExceptionTranslationFilter@92aa3d3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@624431f8]
+[]--[]--2020-10-28 15:37:26.993 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'taskExecutor'
+[]--[]--2020-10-28 15:37:27.104 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-28 15:37:27.215 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c2417a8: startup date [Wed Oct 28 15:37:15 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:37:27.227 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in responseResultBodyAdvisor
+[]--[]--2020-10-28 15:37:27.266 WARN --[  restartedMain]
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[]--[]--2020-10-28 15:37:27.281 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-28 15:37:28.315 ERROR--[  restartedMain]
+                com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:123)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.lambda$isInitializingDatabase$0(DataSourceInitializedPublisher.java:95)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:53)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.determineDdlAuto(JpaProperties.java:247)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.getAdditionalProperties(JpaProperties.java:216)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties$Hibernate.access$000(JpaProperties.java:169)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.getHibernateProperties(JpaProperties.java:153)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.isInitializingDatabase(DataSourceInitializedPublisher.java:97)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.publishEventIfRequired(DataSourceInitializedPublisher.java:77)
+	at org.springframework.boot.autoconfigure.orm.jpa.DataSourceInitializedPublisher.postProcessAfterInitialization(DataSourceInitializedPublisher.java:70)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.postProcessObjectFromFactoryBean(AbstractAutowireCapableBeanFactory.java:1841)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:116)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1645)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:257)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:224)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveNamedBean(DefaultListableBeanFactory.java:1012)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:338)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:333)
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.findEntityManagerFactory(EntityManagerFactoryUtils.java:120)
+	at org.springframework.orm.jpa.EntityManagerFactoryAccessor.setBeanFactory(EntityManagerFactoryAccessor.java:154)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeAwareMethods(AbstractAutowireCapableBeanFactory.java:1721)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1686)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.resolveBeanReference(ConfigurationClassEnhancer.java:396)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:368)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration$$EnhancerBySpringCGLIB$$42486bf7.openEntityManagerInViewInterceptor(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.addInterceptors(JpaBaseConfiguration.java:247)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurerComposite.addInterceptors(WebMvcConfigurerComposite.java:88)
+	at org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration.addInterceptors(DelegatingWebMvcConfiguration.java:83)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.getInterceptors(WebMvcConfigurationSupport.java:330)
+	at org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport.requestMappingHandlerMapping(WebMvcConfigurationSupport.java:282)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration.requestMappingHandlerMapping(WebMvcAutoConfiguration.java:487)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$63faaf7f.CGLIB$requestMappingHandlerMapping$3(<generated>)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$63faaf7f$$FastClassBySpringCGLIB$$39bed50a.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration$$EnhancerBySpringCGLIB$$63faaf7f.requestMappingHandlerMapping(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.inspur.cloud.IIDApplication.main(IIDApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 97 common frames omitted
+[]--[]--2020-10-28 15:37:28.372 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.device.controller.DeviceController.querySecretKeyList(int,int,java.lang.String,java.lang.String,java.lang.Integer)
+[]--[]--2020-10-28 15:37:28.373 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/download],methods=[GET]}" onto public void com.inspur.cloud.console.device.controller.DeviceController.downloadDevices(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.Integer) throws java.io.IOException
+[]--[]--2020-10-28 15:37:28.374 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secret],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecret(java.lang.String,java.lang.String)
+[]--[]--2020-10-28 15:37:28.375 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secrets],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecrets(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[]--[]--2020-10-28 15:37:28.377 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<java.util.List<com.inspur.cloud.console.dict.entity.DictItemBean>> com.inspur.cloud.console.dict.controller.DictController.getDictItemByGroupId(java.lang.String)
+[]--[]--2020-10-28 15:37:28.377 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictCache()
+[]--[]--2020-10-28 15:37:28.378 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictGroupCache(java.lang.String)
+[]--[]--2020-10-28 15:37:28.378 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}/items/{itemId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<com.inspur.cloud.console.dict.entity.DictItemBean> com.inspur.cloud.console.dict.controller.DictController.getDictItemByKey(java.lang.String,java.lang.String)
+[]--[]--2020-10-28 15:37:28.378 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<?> com.inspur.cloud.console.dict.controller.DictController.getDict(java.lang.String)
+[]--[]--2020-10-28 15:37:28.379 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/health-status],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.health.HealthController.healthStatus()
+[]--[]--2020-10-28 15:37:28.383 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.addProduct(com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-28 15:37:28.384 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}],methods=[PUT]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.updateProduct(java.lang.String,com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-28 15:37:28.384 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail],methods=[GET]}" onto public com.inspur.cloud.console.product.entity.ProductDo com.inspur.cloud.console.product.controller.ProductController.productDetails(java.lang.String)
+[]--[]--2020-10-28 15:37:28.384 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.queryProductList(int,int,java.lang.String)
+[]--[]--2020-10-28 15:37:28.385 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.productList(java.lang.String,int,int)
+[]--[]--2020-10-28 15:37:28.385 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.product.entity.ProductsVO> com.inspur.cloud.console.product.controller.ProductController.productList()
+[]--[]--2020-10-28 15:37:28.385 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/metrics]}" onto public void com.inspur.cloud.console.prometheus.controller.MetricsController.metrics(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+[]--[]--2020-10-28 15:37:28.386 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/root-cert],methods=[POST]}" onto public void com.inspur.cloud.console.rootcert.controller.RootCertController.create(com.inspur.cloud.console.rootcert.entity.CreateRootCertParams)
+[]--[]--2020-10-28 15:37:28.386 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/rootCertList],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.rootcert.entity.RootCert> com.inspur.cloud.console.rootcert.controller.RootCertController.queryRootCertList()
+[]--[]--2020-10-28 15:37:28.389 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/is-open],methods=[GET]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.isOpenService()
+[]--[]--2020-10-28 15:37:28.389 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/opening],methods=[POST]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.openService()
+[]--[]--2020-10-28 15:37:28.389 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/number],methods=[GET]}" onto public com.inspur.cloud.console.kgc.entity.ProductAndDeviceNum com.inspur.cloud.console.usercert.controller.UserCertController.calulateNumber()
+[]--[]--2020-10-28 15:37:28.390 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/info],methods=[GET]}" onto public com.inspur.cloud.console.usercert.entity.UserCert com.inspur.cloud.console.usercert.controller.UserCertController.getUserCert()
+[]--[]--2020-10-28 15:37:28.392 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[]--[]--2020-10-28 15:37:28.392 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[]--[]--2020-10-28 15:37:28.458 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-28 15:37:28.458 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-28 15:37:28.490 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in clientExceptionHandler
+[]--[]--2020-10-28 15:37:28.491 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+[]--[]--2020-10-28 15:37:28.491 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in responseResultBodyAdvisor
+[]--[]--2020-10-28 15:37:28.492 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in commonControllerAdvice
+[]--[]--2020-10-28 15:37:29.512 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService  'taskScheduler'
+[]--[]--2020-10-28 15:37:29.688 INFO --[  restartedMain]
+                o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+[]--[]--2020-10-28 15:37:29.701 INFO --[  restartedMain]
+                o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/prometheus],methods=[GET],produces=[text/plain;version=0.0.4;charset=utf-8]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[]--[]--2020-10-28 15:37:29.849 INFO --[  restartedMain]
+                o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[]--[]--2020-10-28 15:37:30.053 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+[]--[]--2020-10-28 15:37:30.055 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+[]--[]--2020-10-28 15:37:30.066 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+[]--[]--2020-10-28 15:37:30.072 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[]--[]--2020-10-28 15:37:30.075 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+[]--[]--2020-10-28 15:37:30.110 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+[]--[]--2020-10-28 15:37:30.110 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[]--[]--2020-10-28 15:37:30.110 INFO --[  restartedMain]
+                o.s.i.channel.PublishSubscribeChannel    : Channel 'i-id-service.errorChannel' has 1 subscriber(s).
+[]--[]--2020-10-28 15:37:30.110 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+[]--[]--2020-10-28 15:37:30.111 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+[]--[]--2020-10-28 15:37:30.154 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
+[]--[]--2020-10-28 15:37:30.160 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Started IIDApplication in 15.681 seconds (JVM running for 16.477)
+[]--[]--2020-10-28 15:37:30.164 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...begin...
+[]--[]--2020-10-28 15:37:30.182 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-28 15:37:31.206 ERROR--[  restartedMain]
+                com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:990)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:342)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2197)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:117)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:123)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:365)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:194)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:460)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:534)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:151)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:115)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:78)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:82)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:68)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:338)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:84)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:326)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at com.sun.proxy.$Proxy188.query(Unknown Source)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:108)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at com.sun.proxy.$Proxy188.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:148)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	at com.sun.proxy.$Proxy144.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:230)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:139)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:76)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:59)
+	at com.sun.proxy.$Proxy159.qryDictItemList(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:197)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:185)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy160.qryDictItemList(Unknown Source)
+	at com.inspur.cloud.console.dict.service.DictService.qryDictItemList(DictService.java:33)
+	at com.inspur.cloud.console.dict.service.DictService$$FastClassBySpringCGLIB$$a0d2620.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:684)
+	at com.inspur.cloud.console.dict.service.DictService$$EnhancerBySpringCGLIB$$d9ba315b.qryDictItemList(<generated>)
+	at com.inspur.cloud.console.dict.cache.DictCache.refresh(DictCache.java:89)
+	at com.inspur.cloud.console.dict.cache.DictCache.run(DictCache.java:159)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:809)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:799)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:341)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.inspur.cloud.IIDApplication.main(IIDApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:211)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:301)
+	... 81 common frames omitted
+[]--[]--2020-10-28 15:37:31.241 DEBUG--[  restartedMain]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c2417a8: startup date [Wed Oct 28 15:37:15 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:37:31.345 DEBUG--[localhost-startStop-1]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.destroy()...
+[]--[]--2020-10-28 15:37:55.865 DEBUG--[      Thread-28]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.uplaodVersion] begin
+[]--[]--2020-10-28 15:37:56.315 DEBUG--[      Thread-28]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.uplaodVersion] request success, responseBody: {"id":"e4e590c17448874b017448a48059000d","authUrl":"https://auth-cloud-dev.inspurcloud.cn/auth","realm":"picp","client":"bss-server","databaseName":"icp_iid","version":"1.9.7","createdAt":"2020-09-01T07:49:34Z","updatedAt":null}
+[]--[]--2020-10-28 15:38:18.113 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Starting IIDApplication on JiangYuPengdeMacBook-Pro.local with PID 10184 (/Users/jiangyupeng/Java/Company/iid-service/out/production/classes started by jiangyupeng in /Users/jiangyupeng/Java/Company/iid-service)
+[]--[]--2020-10-28 15:38:18.116 DEBUG--[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+[]--[]--2020-10-28 15:38:18.116 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : The following profiles are active: prod
+[]--[]--2020-10-28 15:38:18.236 INFO --[  restartedMain]
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c66dde0: startup date [Wed Oct 28 15:38:18 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:38:18.935 INFO --[  restartedMain]
+                o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'httpSessionManager' with a different definition: replacing [Generic bean: class [org.keycloak.adapters.springsecurity.management.HttpSessionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=httpSessionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/inspur/iam/adapter/config/SecurityConfig.class]]
+[]--[]--2020-10-28 15:38:19.224 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-28 15:38:19.250 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-28 15:38:19.290 INFO --[  restartedMain]
+                o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[]--[]--2020-10-28 15:38:19.654 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[]--[]--2020-10-28 15:38:19.660 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[]--[]--2020-10-28 15:38:19.756 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d6f70328] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-28 15:38:19.849 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$108b44fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-28 15:38:20.028 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$7b7d0029] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-28 15:38:20.742 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+[]--[]--2020-10-28 15:38:20.761 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[]--[]--2020-10-28 15:38:20.761 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[]--[]--2020-10-28 15:38:20.764 INFO --[localhost-startStop-1]
+                o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jiangyupeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[]--[]--2020-10-28 15:38:20.844 INFO --[localhost-startStop-1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[]--[]--2020-10-28 15:38:20.844 INFO --[localhost-startStop-1]
+                o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2608 ms
+[]--[]--2020-10-28 15:38:22.598 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.598 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.598 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.599 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.599 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.599 INFO --[localhost-startStop-1]
+                o.s.b.w.s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[]--[]--2020-10-28 15:38:22.600 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'securityContextFilter' to urls: [/*]
+[]--[]--2020-10-28 15:38:22.600 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpTraceFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.600 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+[]--[]--2020-10-28 15:38:22.600 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakPreAuthActionsFilter was not registered (disabled)
+[]--[]--2020-10-28 15:38:22.600 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticatedActionsFilter was not registered (disabled)
+[]--[]--2020-10-28 15:38:22.601 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakSecurityContextRequestFilter was not registered (disabled)
+[]--[]--2020-10-28 15:38:22.601 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.601 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'repeatedlyReadFilter' to: [/*]
+[]--[]--2020-10-28 15:38:22.601 INFO --[localhost-startStop-1]
+                o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+[]--[]--2020-10-28 15:38:22.633 DEBUG--[localhost-startStop-1]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.init()......
+[]--[]--2020-10-28 15:38:22.773 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-28 15:38:23.983 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+[]--[]--2020-10-28 15:38:24.060 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-28 15:38:24.072 INFO --[  restartedMain]
+                o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[]--[]--2020-10-28 15:38:24.132 INFO --[  restartedMain]
+                org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+[]--[]--2020-10-28 15:38:24.134 INFO --[  restartedMain]
+                org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[]--[]--2020-10-28 15:38:24.166 INFO --[  restartedMain]
+                org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[]--[]--2020-10-28 15:38:24.434 INFO --[  restartedMain]
+                org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[]--[]--2020-10-28 15:38:24.587 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-28 15:38:24.647 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] there is no iam folder in Resource!
+[]--[]--2020-10-28 15:38:24.648 DEBUG--[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] projectPath: /Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/com.inspur.iam/iam-adapter-java/1.9.7/6706f5ae335155c33a45369c1400847f77286669
+[]--[]--2020-10-28 15:38:24.648 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.LiquiabseInit] there is no liquibase-xml in local directory!
+[]--[]--2020-10-28 15:38:24.659 DEBUG--[  restartedMain]
+                com.inspur.iam.adapter.util.VersionUtil  : [VersionUtil.uploadVersion] adaper version: 1.9.7
+[]--[]--2020-10-28 15:38:25.203 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 开始创建RestTemplate-->[tokenType=USER,timeZone=GMT,WriteDatesAsTimestamps=null,referer=https://console1.cloud.inspur.com/,connectionRequestTimeout=0,ConnectTimeout=0,ReadTimeout=0]
+[]--[]--2020-10-28 15:38:25.211 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 创建RestTemplate完成-->org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate@c70a1b0
+[]--[]--2020-10-28 15:38:25.364 DEBUG--[  restartedMain]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 注入ApplicationContext到SpringContextHolder:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c66dde0: startup date [Wed Oct 28 15:38:18 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:38:25.527 INFO --[  restartedMain]
+                o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63b85976, org.springframework.security.web.context.SecurityContextPersistenceFilter@4585f544, org.springframework.security.web.header.HeaderWriterFilter@54ef22b8, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@56bd1e6b, org.springframework.security.web.authentication.logout.LogoutFilter@41a05757, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@60138fe4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7d729353, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c50b5cf, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@d7e0e73, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@6b32c093, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19658308, org.springframework.security.web.session.SessionManagementFilter@102b7d8, org.springframework.security.web.access.ExceptionTranslationFilter@6c6e5650, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31020dcb]
+[]--[]--2020-10-28 15:38:25.609 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'taskExecutor'
+[]--[]--2020-10-28 15:38:25.720 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-28 15:38:25.816 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c66dde0: startup date [Wed Oct 28 15:38:18 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:38:25.831 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in responseResultBodyAdvisor
+[]--[]--2020-10-28 15:38:25.865 WARN --[  restartedMain]
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[]--[]--2020-10-28 15:38:26.036 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.device.controller.DeviceController.querySecretKeyList(int,int,java.lang.String,java.lang.String,java.lang.Integer)
+[]--[]--2020-10-28 15:38:26.039 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/download],methods=[GET]}" onto public void com.inspur.cloud.console.device.controller.DeviceController.downloadDevices(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.Integer) throws java.io.IOException
+[]--[]--2020-10-28 15:38:26.040 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secret],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecret(java.lang.String,java.lang.String)
+[]--[]--2020-10-28 15:38:26.041 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secrets],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecrets(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[]--[]--2020-10-28 15:38:26.044 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<java.util.List<com.inspur.cloud.console.dict.entity.DictItemBean>> com.inspur.cloud.console.dict.controller.DictController.getDictItemByGroupId(java.lang.String)
+[]--[]--2020-10-28 15:38:26.045 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictCache()
+[]--[]--2020-10-28 15:38:26.045 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictGroupCache(java.lang.String)
+[]--[]--2020-10-28 15:38:26.046 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}/items/{itemId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<com.inspur.cloud.console.dict.entity.DictItemBean> com.inspur.cloud.console.dict.controller.DictController.getDictItemByKey(java.lang.String,java.lang.String)
+[]--[]--2020-10-28 15:38:26.047 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<?> com.inspur.cloud.console.dict.controller.DictController.getDict(java.lang.String)
+[]--[]--2020-10-28 15:38:26.047 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/health-status],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.health.HealthController.healthStatus()
+[]--[]--2020-10-28 15:38:26.055 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.addProduct(com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-28 15:38:26.056 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}],methods=[PUT]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.updateProduct(java.lang.String,com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-28 15:38:26.057 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail],methods=[GET]}" onto public com.inspur.cloud.console.product.entity.ProductDo com.inspur.cloud.console.product.controller.ProductController.productDetails(java.lang.String)
+[]--[]--2020-10-28 15:38:26.057 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.queryProductList(int,int,java.lang.String)
+[]--[]--2020-10-28 15:38:26.057 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.productList(java.lang.String,int,int)
+[]--[]--2020-10-28 15:38:26.058 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.product.entity.ProductsVO> com.inspur.cloud.console.product.controller.ProductController.productList()
+[]--[]--2020-10-28 15:38:26.059 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/metrics]}" onto public void com.inspur.cloud.console.prometheus.controller.MetricsController.metrics(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+[]--[]--2020-10-28 15:38:26.061 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/root-cert],methods=[POST]}" onto public void com.inspur.cloud.console.rootcert.controller.RootCertController.create(com.inspur.cloud.console.rootcert.entity.CreateRootCertParams)
+[]--[]--2020-10-28 15:38:26.062 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/rootCertList],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.rootcert.entity.RootCert> com.inspur.cloud.console.rootcert.controller.RootCertController.queryRootCertList()
+[]--[]--2020-10-28 15:38:26.065 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/info],methods=[GET]}" onto public com.inspur.cloud.console.usercert.entity.UserCert com.inspur.cloud.console.usercert.controller.UserCertController.getUserCert()
+[]--[]--2020-10-28 15:38:26.066 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/is-open],methods=[GET]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.isOpenService()
+[]--[]--2020-10-28 15:38:26.068 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/opening],methods=[POST]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.openService()
+[]--[]--2020-10-28 15:38:26.070 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/number],methods=[GET]}" onto public com.inspur.cloud.console.kgc.entity.ProductAndDeviceNum com.inspur.cloud.console.usercert.controller.UserCertController.calulateNumber()
+[]--[]--2020-10-28 15:38:26.074 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[]--[]--2020-10-28 15:38:26.075 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[]--[]--2020-10-28 15:38:26.136 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-28 15:38:26.136 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-28 15:38:26.159 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in clientExceptionHandler
+[]--[]--2020-10-28 15:38:26.159 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+[]--[]--2020-10-28 15:38:26.159 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in responseResultBodyAdvisor
+[]--[]--2020-10-28 15:38:26.159 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in commonControllerAdvice
+[]--[]--2020-10-28 15:38:26.981 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService  'taskScheduler'
+[]--[]--2020-10-28 15:38:27.142 INFO --[  restartedMain]
+                o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+[]--[]--2020-10-28 15:38:27.153 INFO --[  restartedMain]
+                o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/prometheus],methods=[GET],produces=[text/plain;version=0.0.4;charset=utf-8]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[]--[]--2020-10-28 15:38:27.291 INFO --[  restartedMain]
+                o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[]--[]--2020-10-28 15:38:27.483 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+[]--[]--2020-10-28 15:38:27.485 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+[]--[]--2020-10-28 15:38:27.493 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+[]--[]--2020-10-28 15:38:27.498 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[]--[]--2020-10-28 15:38:27.500 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+[]--[]--2020-10-28 15:38:27.530 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+[]--[]--2020-10-28 15:38:27.530 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[]--[]--2020-10-28 15:38:27.530 INFO --[  restartedMain]
+                o.s.i.channel.PublishSubscribeChannel    : Channel 'i-id-service.errorChannel' has 1 subscriber(s).
+[]--[]--2020-10-28 15:38:27.531 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+[]--[]--2020-10-28 15:38:27.531 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+[]--[]--2020-10-28 15:38:27.570 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
+[]--[]--2020-10-28 15:38:27.574 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Started IIDApplication in 10.579 seconds (JVM running for 11.114)
+[]--[]--2020-10-28 15:38:27.577 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...begin...
+[]--[]--2020-10-28 15:38:28.092 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...end...
+[]--[]--2020-10-28 15:38:28.252 INFO --[RMI TCP Connection(2)-127.0.0.1]
+                o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [10.110.64.31:31675]
+[]--[]--2020-10-28 15:38:28.257 INFO --[RMI TCP Connection(1)-127.0.0.1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]--[]--2020-10-28 15:38:28.257 INFO --[RMI TCP Connection(1)-127.0.0.1]
+                o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+[]--[]--2020-10-28 15:38:28.280 INFO --[RMI TCP Connection(1)-127.0.0.1]
+                o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+[]--[]--2020-10-28 15:38:29.128 INFO --[RMI TCP Connection(2)-127.0.0.1]
+                o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#56161458:0/SimpleConnection@78e3b79f [delegate=amqp://guest@10.110.64.31:31675/, localPort= 57147]
+[]--[]--2020-10-28 15:38:29.366 INFO --[RMI TCP Connection(2)-127.0.0.1]
+                io.lettuce.core.EpollProvider            : Starting without optional epoll library
+[]--[]--2020-10-28 15:38:29.368 INFO --[RMI TCP Connection(2)-127.0.0.1]
+                io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+[]--[]--2020-10-28 15:38:54.665 DEBUG--[      Thread-21]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.uplaodVersion] begin
+[]--[]--2020-10-28 15:38:54.975 DEBUG--[      Thread-21]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.uplaodVersion] request success, responseBody: {"id":"e4e590c17448874b017448a48059000d","authUrl":"https://auth-cloud-dev.inspurcloud.cn/auth","realm":"picp","client":"bss-server","databaseName":"icp_iid","version":"1.9.7","createdAt":"2020-09-01T07:49:34Z","updatedAt":null}
+[]--[]--2020-10-28 15:41:49.443 DEBUG--[http-nio-8762-exec-1]
+                c.i.i.a.filter.SecurityContextFilter     : [SecurityContextFilter.doFilter] SecurityContextFilter-begin-1603870909443
+[]--[]--2020-10-28 15:41:49.444 DEBUG--[http-nio-8762-exec-1]
+                c.i.i.a.filter.SecurityContextFilter     : SecurityContextUtil.cleanSecurityContext()
+[]--[]--2020-10-28 15:41:49.446 DEBUG--[http-nio-8762-exec-1]
+                c.i.i.a.filter.SecurityContextFilter     : [SecurityContextFilter.doFilter] auth: org.keycloak.adapters.springsecurity.token.KeycloakAuthenticationToken@7a8aa7d9: Principal: 1d44bfda-8fd2-4e2b-a99c-21bdf690c753; Credentials: [PROTECTED]; Authenticated: true; Details: org.keycloak.adapters.springsecurity.account.SimpleKeycloakAccount@2b273b1; Granted Authorities: ROLE_ACCOUNT_ADMIN, ROLE_RDS_ADMIN, ROLE_UMA_AUTHORIZATION, ROLE_OFFLINE_ACCESS
+[]--[]--2020-10-28 15:41:49.446 DEBUG--[http-nio-8762-exec-1]
+                c.i.i.a.filter.SecurityContextFilter     : [SecurityContextFilter.doFilter] is KeycloakAuthenticationToken
+[]--[]--2020-10-28 15:41:49.446 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.TokenUtil    : [SecurityContextFilter.initUserInfo] isServiceAccount: false
+[]--[]--2020-10-28 15:41:49.446 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.TokenUtil    : [TokenUtil.getUserById] not exists in redis, query KK, id:1d44bfda-8fd2-4e2b-a99c-21bdf690c753
+[]--[]--2020-10-28 15:41:49.446 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.getKcUserById] begin
+[]--[]--2020-10-28 15:41:49.939 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.getKcUserById] request success, responseBody: {"id":"1d44bfda-8fd2-4e2b-a99c-21bdf690c753","createdTimestamp":1588827826514,"username":"inspurtest01","enabled":true,"totp":false,"emailVerified":false,"firstName":"","lastName":"","email":"inspurtest01@inspur.com","attributes":{"lastLoginTime":["1603870265884"],"project":["inspurtest01"],"thisLoginTime":["1603870307826"]},"disableableCredentialTypes":["password"],"requiredActions":[],"federatedIdentities":[],"notBefore":1602302654,"access":{"manageGroupMembership":true,"view":true,"mapRoles":true,"impersonate":true,"manage":true}}
+[]--[]--2020-10-28 15:41:49.942 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.TokenUtil    : [SecurityContextFilter.initUserInfo] userMap: {id=1d44bfda-8fd2-4e2b-a99c-21bdf690c753, createdTimestamp=1588827826514, username=inspurtest01, enabled=true, totp=false, emailVerified=false, firstName=, lastName=, email=inspurtest01@inspur.com, attributes={lastLoginTime=[1603870265884], project=[inspurtest01], thisLoginTime=[1603870307826]}, disableableCredentialTypes=[password], requiredActions=[], federatedIdentities=[], notBefore=1602302654, access={manageGroupMembership=true, view=true, mapRoles=true, impersonate=true, manage=true}}
+[]--[]--2020-10-28 15:41:49.942 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.TokenUtil    : {lastLoginTime=[1603870265884], project=[inspurtest01], thisLoginTime=[1603870307826]}
+[]--[]--2020-10-28 15:41:49.943 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.TokenUtil    : [TokenUtil.getUserGroupsById] not exists in redis, query KK, id:1d44bfda-8fd2-4e2b-a99c-21bdf690c753
+[]--[]--2020-10-28 15:41:49.943 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.getKcUserGroups] begin
+[]--[]--2020-10-28 15:41:50.309 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.getKcUserGroups] request success, responseBody: [{"id":"047bd339-8ee6-42fe-8618-a99e8279dd79","name":"group-inspurtest01","description":null,"createdAt":0,"accountId":null}]
+[]--[]--2020-10-28 15:41:50.319 DEBUG--[http-nio-8762-exec-1]
+                com.inspur.iam.adapter.util.TokenUtil    : [SecurityContextFilter.initUserInfo] isRootUser: true
+[]--[]--2020-10-28 15:41:50.322 DEBUG--[http-nio-8762-exec-1]
+                c.i.i.a.filter.SecurityContextFilter     : [SecurityContextFilter.doFilter] SecurityContextFilter-doFilter-1603870910322
+[]--[]--2020-10-28 15:41:50.326 DEBUG--[http-nio-8762-exec-1]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.doFilter()...
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.326 INFO --[http-nio-8762-exec-1]
+                c.i.cloud.common.filter.RequestFilter    : 是否为主账号true
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.328 INFO --[http-nio-8762-exec-1]
+                c.i.cloud.common.filter.RequestFilter    : user id: 1d44bfda-8fd2-4e2b-a99c-21bdf690c753,Creator Id: 1d44bfda-8fd2-4e2b-a99c-21bdf690c753, request url: /iid/v1/user-cert/root-cert, request id: 983f1288-9674-4ab0-940b-9c7c954e122b
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.461 DEBUG--[http-nio-8762-exec-1]
+                c.i.iam.adapter.aop.PermissionContextAop : requesturi=/iid/v1/user-cert/root-cert
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.466 INFO --[http-nio-8762-exec-1]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.467 INFO --[http-nio-8762-exec-1]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.467 INFO --[http-nio-8762-exec-1]
+                c.i.c.c.rootcert.service.RootCertService : ================ Create CA cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/373858911508283392.key -out /Users/jiangyupeng/Desktop/iid-sslkey/373858911508283392.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.505 INFO --[http-nio-8762-exec-1]
+                c.i.c.c.rootcert.service.RootCertService : =============== 创建 .crt and .key 文件成功
+[i-id-service]--[983f1288-9674-4ab0-940b-9c7c954e122b]--2020-10-28 15:41:50.518 INFO --[http-nio-8762-exec-1]
+                c.i.c.c.rootcert.service.RootCertService : =========== rootCert: RootCert(id=373858911508283392, name=inspurtest01, code=1d44bfda-8fd2-4e2b-a99c-21bdf690c753, accountId=1d44bfda-8fd2-4e2b-a99c-21bdf690c753, creatorId=1d44bfda-8fd2-4e2b-a99c-21bdf690c753, mainPubEncKey=-----BEGIN CERTIFICATE-----
+MIICHTCCAYYCCQC4PgoRW3PqWTANBgkqhkiG9w0BAQsFADBSMQswCQYDVQQGEwJD
+TjEMMAoGA1UECAwDaWlkMQwwCgYDVQQHDANpaWQxDDAKBgNVBAoMA2lpZDEMMAoG
+A1UECwwDaWlkMQswCQYDVQQDDAJjYTAgFw0yMDEwMjgwNzQxNTBaGA8yMTIwMTAw
+NDA3NDE1MFowUjELMAkGA1UEBhMCQ04xDDAKBgNVBAgMA2lpZDEMMAoGA1UEBwwD
+aWlkMQwwCgYDVQQKDANpaWQxDDAKBgNVBAsMA2lpZDELMAkGA1UEAwwCY2EwgZ8w
+DQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMQRveXrblK2ge4gohK7npuT8lcjq/AK
+6P0ebrcWK0YFii2TxWe9WammiQzgDU4B5pIU1XRuEs6wBNPozem84skCWuv4yhA3
+0Rid/TMP1JDFDkomVYbW5ucm5MeoeMyA/jgSliphsrfwzMm3bo6FYOX/zSg5KpU5
+kmqhBPxjfG77AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGbdDfgr0xnBiHBXYb0CH
+78QtWUfZbTaPPxLWnsmkQmAjc9mGf5HaE56FOv+z/OZrDjceRCPYzMc1RUeRnPuk
+DLANHZCDCnoxlJBip3xF5f39ihONLkZc+fjAQ017BTPEy4iCSuPRnvUyfEEXb+VE
+LBWoxA1tYBPzzkr3FEVtGDM=
+-----END CERTIFICATE-----
+, mainPriEncKey=-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIICzzBJBgkqhkiG9w0BBQ0wPDAbBgkqhkiG9w0BBQwwDgQIxScsQSn2n3wCAggA
+MB0GCWCGSAFlAwQBKgQQ6LM5LBNfsS9dJTCnqv3PkASCAoAqXmnSj22V9sbfVy+m
+qaTFtCm7i6OglPpZ0Mk77e+dvhcnxBSfV5IEWgioftY/RWC+0k9OaT5umCEuWZ2g
+Ln6GMoKZYv6FK91gSMeE9UamdmolBsYIbjQ4Xl7SG4fcWkKwVGcGSM8Vq4tm0EVL
+V9suwgINoixRTzW4pIWjzvUhpHAB6NfcoqR1uNCxveILNdx+0L75z9E2Xe7FoO8B
+yvtqyzi/mZaAntn/sAErodRAnC8Qrh39MPA6i53Fo7D5A7kk5fgqdQ90IVDJogm3
+NHeK1Z/g2v/ygamy5KvUBw1DY43028JTppzLS/9biA9pihLLClGBPE0VztiYhVw4
+ZtsC1V6bqKeo7yQSG08m1XAG/EB2dP0CuEu0u/YsZas57S2Kpgpmg6L7/ABihQ/9
+buekGAuQSJ4QlthOjVrcWqClSAUaY2GYCoPr01XycscbSsNEaX5mNlDtkMvRH34t
+ceBtCwE38IFJCCn5IyeJ6QCJeEtN8EiFgOT4OkWrNxHmEFiKjzoXB+JyTAzjRJqb
+se8hDiT5QTU2spuplnSHCw1nJaZMyUBk1pSsForhX9O8P/5RORXCC/H4HPCJn8r0
+lZ9V8Eub7pCnIqWr4rDKcEc5uVgwB5doa/XcNt5DNojidUpZg5uIgwBnjq8wtfv7
+vxbvexKWTKn0DNyBMqrzzh2caVIf7zMpwLdBinmDwiHLiUQVWGCD4JYdO02IUrqs
+L3gr/LT5Ce7EHCeJgaNr55bSlXlFG32ApOQBy2fQc4uODOZYgcvMyjKmG1ixxiht
+5m8M3vj5zVEi6Zz61n9UPKL6f+o/l+zBZtxLKqr/fSeFIY4q7i3hYoCVh4rXNHfE
+jDJI
+-----END ENCRYPTED PRIVATE KEY-----
+, mainPubVfyKey=null, mainPriVfyKey=null, type=x509, certName=x509_cert_01, rsaCount=1024, password=22446688, days=36500, status=0, source=internal, dnsList=["dns01","dns02"], ipList=["www.googole.com"], subject={"st":"iid","l":"iid","o":"iid","ou":"iid","c":"CN","cn":"ca"}, createdTime=Wed Oct 28 15:41:50 CST 2020, updatedTime=Wed Oct 28 15:41:50 CST 2020)
+[]--[]--2020-10-28 15:46:40.667 DEBUG--[      Thread-31]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3c66dde0: startup date [Wed Oct 28 15:38:18 CST 2020]; root of context hierarchy
+[]--[]--2020-10-28 15:46:41.826 INFO --[      Thread-31]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+[]--[]--2020-10-28 15:46:41.831 INFO --[      Thread-31]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[]--[]--2020-10-28 15:46:44.235 DEBUG--[localhost-startStop-2]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.destroy()...

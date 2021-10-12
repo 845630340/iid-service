@@ -1,0 +1,229 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext classpath:/liquibase/dbchangelog-ext.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog classpath:/liquibase/dbchangelog-3.6.xsd">
+
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-1">
+        <createTable tableName="common_error_code">
+            <column autoIncrement="true" name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="project_code" type="CHAR(3)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="project_name" type="VARCHAR(32)"/>
+            <column name="module_code" type="CHAR(3)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="module_name" type="VARCHAR(32)"/>
+            <column name="error_code" type="CHAR(3)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="error_message" type="VARCHAR(256)"/>
+            <column name="created_time" type="datetime"/>
+        </createTable>
+        <modifySql dbms="mysql">
+            <append value="ENGINE=INNODB CHARSET=UTF8"/>
+        </modifySql>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-2">
+        <createTable remarks="设备信息表" tableName="device">
+            <column autoIncrement="true" name="id" remarks="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="account_id" remarks="主用户id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="creator_id" remarks="子用户id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="product_id" remarks="产品id" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="batch_no" remarks="批次" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="code" remarks="设备标识：设备加密签名公钥" type="VARCHAR(512)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="dev_pri_enc_key" remarks="设备加密私钥" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="dev_pri_vfy_key" remarks="设备签名私钥" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_by" remarks="创建者" type="VARCHAR(36)"/>
+            <column name="modified_by" remarks="更改者" type="VARCHAR(36)"/>
+            <column name="created_time" remarks="创建时间" type="datetime"/>
+            <column name="updated_time" remarks="更新时间" type="datetime"/>
+            <column name="deleted_time" remarks="删除时间" type="datetime"/>
+            <column defaultValueBoolean="false" name="is_deleted" remarks="是否被软删除，0未删除，1已删除" type="BIT(1)">
+                <constraints nullable="false"/>
+            </column>
+            <column defaultValueBoolean="true" name="status" type="BIT(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <modifySql dbms="mysql">
+            <append value="ENGINE=INNODB CHARSET=UTF8"/>
+        </modifySql>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-3">
+        <createTable remarks="字典项表" tableName="dict_item">
+            <column name="id" type="BIGINT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="group_id" remarks="字典组Code" type="VARCHAR(128)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_id" remarks="字典项Code" type="VARCHAR(128)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_value" remarks="字典项值" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="item_desc" remarks="字典描述" type="VARCHAR(255)"/>
+            <column name="status" remarks="状态：VALID有效;INVALID无效" type="VARCHAR(16)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="sort" remarks="排序" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_time" remarks="创建时间" type="datetime">
+                <constraints nullable="false"/>
+            </column>
+            <column name="updated_time" remarks="更新时间" type="datetime"/>
+        </createTable>
+        <modifySql dbms="mysql">
+            <append value="ENGINE=INNODB CHARSET=UTF8"/>
+        </modifySql>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-4">
+        <createTable remarks="产品信息表" tableName="product">
+            <column name="id" remarks="id" type="VARCHAR(36)">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" remarks="产品名称" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="description" remarks="产品描述" type="VARCHAR(255)"/>
+            <column name="producer" remarks="生产厂商" type="VARCHAR(100)"/>
+            <column name="spec" remarks="产品型号" type="VARCHAR(100)"/>
+            <column name="status" remarks="0禁用 1启用" type="BIT(1)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="account_id" remarks="用户主账户" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="creator_id" remarks="用户子用户" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_by" remarks="创建者" type="VARCHAR(36)"/>
+            <column name="modified_by" remarks="更改者" type="VARCHAR(36)"/>
+            <column defaultValue="I-ID平台" name="product_source" remarks="产品来源" type="VARCHAR(36)"/>
+            <column name="created_time" remarks="创建时间" type="datetime"/>
+            <column name="updated_time" remarks="更新时间" type="datetime"/>
+            <column name="deleted_time" remarks="删除时间" type="datetime"/>
+            <column defaultValueBoolean="false" name="is_deleted" remarks="是否被软删除 0未删除 1删除" type="BIT(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <modifySql dbms="mysql">
+            <append value="ENGINE=INNODB CHARSET=UTF8"/>
+        </modifySql>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-5">
+        <createTable remarks="物联网安全认证服务用户企业信息表" tableName="user_cert">
+            <column name="id" type="VARCHAR(36)">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="name" remarks="用户名称" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="code" remarks="统一社会信用代码" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="account_id" remarks="主账号ID" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="creator_id" remarks="子账号ID" type="VARCHAR(36)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="main_pub_enc_key" remarks="主加密公钥" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="main_pri_enc_key" remarks="主加密私钥" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="main_pub_vfy_key" remarks="主签名公钥" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="main_pri_vfy_key" remarks="主签名私钥" type="TEXT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="created_by" remarks="创建者" type="VARCHAR(36)"/>
+            <column name="modified_by" remarks="更改者" type="VARCHAR(36)"/>
+            <column name="created_time" remarks="创建时间" type="datetime"/>
+            <column name="updated_time" remarks="更新时间" type="datetime"/>
+            <column name="deleted_time" remarks="删除时间" type="datetime"/>
+            <column name="is_deleted" remarks="是否被软删除" type="BIT(1)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <modifySql dbms="mysql">
+            <append value="ENGINE=INNODB CHARSET=UTF8"/>
+        </modifySql>
+    </changeSet>
+
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-6">
+        <addUniqueConstraint columnNames="group_id, item_id" constraintName="idx_dict_item_group_id" tableName="dict_item"/>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-7">
+        <createIndex indexName="index_account_id" tableName="device">
+            <column name="account_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-8">
+        <createIndex indexName="index_account_id" tableName="product">
+            <column name="account_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-9">
+        <createIndex indexName="index_account_id" tableName="user_cert">
+            <column name="account_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-10">
+        <createIndex indexName="index_code" tableName="device">
+            <column name="code"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-11">
+        <createIndex indexName="index_code" tableName="user_cert">
+            <column name="code"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-12">
+        <createIndex indexName="index_creator_id" tableName="device">
+            <column name="creator_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-13">
+        <createIndex indexName="index_creator_id" tableName="product">
+            <column name="creator_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-14">
+        <createIndex indexName="index_creator_id" tableName="user_cert">
+            <column name="creator_id"/>
+        </createIndex>
+    </changeSet>
+    <changeSet author="jiangyupeng (generated)" id="1600048004030-15">
+        <createIndex indexName="index_product_id" tableName="device">
+            <column name="product_id"/>
+        </createIndex>
+    </changeSet>
+</databaseChangeLog>

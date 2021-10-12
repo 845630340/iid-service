@@ -1,0 +1,2 @@
+[]--[]--2020-10-30 11:11:55.194 ERROR--[AMQP Connection 10.110.64.31:31675]
+                o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error

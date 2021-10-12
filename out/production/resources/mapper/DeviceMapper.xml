@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inspur.cloud.console.device.dao.DeviceDao">
+    <select id="selectTotalCount" resultType="int">
+        select
+        count(1)
+        from
+        device
+        where account_id = #{accountId} and type = #{type}
+    </select>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.inspur.cloud.console.device.entity.Device" useGeneratedKeys="true">
+    insert into device (account_id,
+      creator_id, product_id, batch_no,
+      code, dev_pri_enc_key, dev_pri_vfy_key,
+      created_by, modified_by, created_time,
+      updated_time, deleted_time, is_deleted, type
+      )
+    values (#{accountId},
+      #{creatorId}, #{productId}, #{batchNo},
+      #{code}, #{devPriEncKey}, #{devPriVfyKey},
+      #{createdBy}, #{modifiedBy}, #{createdTime},
+      #{updatedTime}, #{deletedTime}, #{isDeleted}, #{type}
+      )
+    </insert>
+    <select id="selectDevicesByPage" resultType="com.inspur.cloud.console.device.entity.DownLoad">
+        select d.id,  d.product_id, d.batch_no,
+        d.code, d.dev_pri_enc_key, d.dev_pri_vfy_key,
+        d.created_time, d.status
+        from device d left join product p on d.product_id = p.id
+        where d.account_id = #{accountId} and d.type = #{type}
+        <if  test="status != null">
+            and d.status = #{status}
+        </if>
+        <if test="code != null and code.length>0">
+            and d.`code` like CONCAT('%',#{code},'%')
+        </if>
+        <if test="productName != null and productName.length>0">
+            and p.name = #{productName}
+        </if>
+        limit #{page},#{size}
+    </select>
+    <select id="selectProductId" resultType="java.lang.String">
+        select
+        id
+        from
+        product
+        where account_id = #{accountId}
+        and `status` = '1'
+        and is_deleted = '0'
+    </select>
+    <insert id="insertForList" keyColumn="id" keyProperty="id" parameterType="com.inspur.cloud.console.device.entity.Device" useGeneratedKeys="true">
+        insert into device (account_id,
+        creator_id, product_id, batch_no,
+        code, dev_pri_enc_key, dev_pri_vfy_key,
+        created_by, modified_by, created_time,
+        updated_time, deleted_time, is_deleted, type
+        )
+        values
+        <foreach collection="list" item="device" separator=",">
+            (#{device.accountId},
+            #{device.creatorId}, #{device.productId}, #{device.batchNo},
+            #{device.code}, #{device.devPriEncKey}, #{device.devPriVfyKey},
+            #{device.createdBy}, #{device.modifiedBy}, #{device.createdTime},
+            #{device.updatedTime}, #{device.deletedTime}, #{device.isDeleted}, #{device.type}
+            )
+        </foreach>
+
+    </insert>
+
+    <select id="selectCodeByData" resultType="java.lang.String">
+        select
+        code
+        from
+        device
+        where account_id = #{accountId}
+        and code in (
+        <foreach collection="list" item="device" separator=",">
+            #{device.code}
+        </foreach>
+        )
+    </select>
+
+
+    <select id="querySecretKeyList" resultType="com.inspur.cloud.console.device.entity.DeviceVO">
+        select d.id, /*d.name, d.description, */d.account_id,
+        d.creator_id, d.product_id,d.batch_no,
+        d.`code`, d.dev_pri_enc_key, d.dev_pri_vfy_key,
+        d.created_by, d.modified_by, d.created_time,
+        d.updated_time, d.deleted_time, d.is_deleted, d.status
+        from device d left join product p on d.product_id = p.id
+        where d.account_id = #{userId}
+        <if  test="status != null and code.length>0">
+            and d.status = #{status}
+        </if>
+        <if test="code != null and code.length>0">
+            and d.`code` like CONCAT('%',#{code},'%')
+        </if>
+        <if test="productName != null and productName.length>0">
+            and p.name = #{productName}
+        </if>
+        <if  test="type != null and code.length>0">
+            and d.type = #{type}
+        </if>
+        order by d.updated_time desc,d.id
+    </select>
+
+    <select id="queryProductNameById" resultType="java.lang.String">
+        select name from product where id = #{productId}
+    </select>
+
+    <select id="selectDeviceByCode" resultType="java.lang.Integer">
+        select
+        count(1)
+        from
+        device
+        where account_id = #{accountId}
+        and code = #{code}
+    </select>
+    <select id="queryDeviceById" resultType="com.inspur.cloud.console.device.entity.Device">
+        select * from device where account_id = #{userId} and id = #{deviceId}
+    </select>
+
+</mapper>

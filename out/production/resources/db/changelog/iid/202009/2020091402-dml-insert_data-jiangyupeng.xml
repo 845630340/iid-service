@@ -1,0 +1,106 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext classpath:/liquibase/dbchangelog-ext.xsd
+    http://www.liquibase.org/xml/ns/dbchangelog classpath:/liquibase/dbchangelog-3.6.xsd">
+
+    <changeSet author="jiangyupeng (generated)" id="1600048365807-1">
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="1"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="001"/>
+            <column name="module_name" value="产品管理"/>
+            <column name="error_code" value="001"/>
+            <column name="error_message" value="产品名称过长或者为空"/>
+            <column name="created_time" valueDate="2020-09-01T16:16:50"/>
+        </insert>
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="2"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="002"/>
+            <column name="module_name" value="企业用户管理"/>
+            <column name="error_code" value="001"/>
+            <column name="error_message" value="微服务接口异常"/>
+            <column name="created_time" valueDate="2020-09-01T16:15:52"/>
+        </insert>
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="3"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="002"/>
+            <column name="module_name" value="企业用户管理"/>
+            <column name="error_code" value="002"/>
+            <column name="error_message" value="服务已开通"/>
+            <column name="created_time" valueDate="2020-09-01T16:17:27"/>
+        </insert>
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="4"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="003"/>
+            <column name="module_name" value="设备管理"/>
+            <column name="error_code" value="001"/>
+            <column name="error_message" value="设备密钥生成失败"/>
+            <column name="created_time" valueDate="2020-09-01T16:15:04"/>
+        </insert>
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="5"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="003"/>
+            <column name="module_name" value="设备管理"/>
+            <column name="error_code" value="002"/>
+            <column name="error_message" value="请勿重复导出"/>
+            <column name="created_time" valueDate="2020-09-01T16:15:04"/>
+        </insert>
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="6"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="003"/>
+            <column name="module_name" value="设备管理"/>
+            <column name="error_code" value="003"/>
+            <column name="error_message" value="设备标识重复"/>
+            <column name="created_time" valueDate="2020-09-01T16:15:04"/>
+        </insert>
+        <insert tableName="common_error_code">
+            <column name="id" valueNumeric="7"/>
+            <column name="project_code" value="809"/>
+            <column name="project_name" value="物联网安全认证服务(IID)"/>
+            <column name="module_code" value="003"/>
+            <column name="module_name" value="设备管理"/>
+            <column name="error_code" value="004"/>
+            <column name="error_message" value="产品id不可用"/>
+            <column name="created_time" valueDate="2020-09-01T16:15:04"/>
+        </insert>
+    </changeSet>
+
+    <changeSet author="jiangyupeng (generated)" id="1600048365807-3">
+        <insert tableName="dict_item">
+            <column name="id" valueNumeric="1"/>
+            <column name="group_id" value="product.status"/>
+            <column name="item_id" value="1"/>
+            <column name="item_value" value="已启用"/>
+            <column name="item_desc" value="启用"/>
+            <column name="status" value="1"/>
+            <column name="sort" valueNumeric="1"/>
+            <column name="created_time" valueDate="2020-09-01T15:41:11"/>
+            <column name="updated_time" valueDate="2020-09-01T15:41:13"/>
+        </insert>
+        <insert tableName="dict_item">
+            <column name="id" valueNumeric="2"/>
+            <column name="group_id" value="product.status"/>
+            <column name="item_id" value="0"/>
+            <column name="item_value" value="已禁用"/>
+            <column name="item_desc" value="禁用"/>
+            <column name="status" value="1"/>
+            <column name="sort" valueNumeric="2"/>
+            <column name="created_time" valueDate="2020-09-01T15:41:43"/>
+            <column name="updated_time" valueDate="2020-09-01T15:41:45"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>

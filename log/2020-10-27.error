@@ -1,0 +1,10 @@
+[]--[]--2020-10-27 20:44:23.747 ERROR--[           main]
+                c.i.c.c.rootcert.service.RootCertService : ============ 创建x509证书失败：{}
+java.lang.Exception: fail to create root cert and key.
+	at com.inspur.cloud.console.rootcert.service.RootCertService.createRootCertAndKey(RootCertService.java:47)
+	at com.inspur.cloud.console.rootcert.filetools.FileUtils.main(FileUtils.java:59)
+[]--[]--2020-10-27 20:45:23.035 ERROR--[           main]
+                c.i.c.c.rootcert.service.RootCertService : ============ 创建x509证书失败：{}
+java.lang.Exception: fail to create root cert and key.
+	at com.inspur.cloud.console.rootcert.service.RootCertService.createRootCertAndKey(RootCertService.java:47)
+	at com.inspur.cloud.console.rootcert.filetools.FileUtils.main(FileUtils.java:59)

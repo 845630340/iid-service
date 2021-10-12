@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.inspur.cloud.console.product.dao.ProductMapper">
+    <insert id="addProduct" parameterType="com.inspur.cloud.console.product.entity.ProductVo">
+        insert into product
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="certId != null">
+                cert_id,
+            </if>
+            <if test="name != null">
+                `name`,
+            </if>
+            <if test="producer != null">
+                producer,
+            </if>
+            <if test="spec != null">
+                spec,
+            </if>
+            <if test="status != null">
+                status,
+            </if>
+            <if test="accountId != null">
+                account_id,
+            </if>
+            <if test="creatorId != null">
+                creator_id,
+            </if>
+            <if test="createdBy != null">
+                created_by,
+            </if>
+            <if test="createdTime != null">
+                created_time,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=VARCHAR},
+            </if>
+            <if test="name != null">
+                #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="producer != null">
+                #{producer,jdbcType=VARCHAR},
+            </if>
+            <if test="spec != null">
+                #{spec,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                #{status,jdbcType=TINYINT},
+            </if>
+            <if test="accountId != null">
+                #{accountId,jdbcType=VARCHAR},
+            </if>
+            <if test="creatorId != null">
+                #{creatorId,jdbcType=VARCHAR},
+            </if>
+            <if test="createdBy != null">
+                #{createdBy,jdbcType=VARCHAR},
+            </if>
+            <if test="createdTime != null">
+                #{createdTime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateProduct" parameterType="com.inspur.cloud.console.product.entity.ProductVo">
+        update product
+        <set>
+            <if test="productVo.name != null">
+                name = #{productVo.name,jdbcType=VARCHAR},
+            </if>
+            <if test="productVo.producer != null">
+                producer = #{productVo.producer,jdbcType=VARCHAR},
+            </if>
+            <if test="productVo.spec != null">
+                spec = #{productVo.spec,jdbcType=VARCHAR},
+            </if>
+            <if test="productVo.status != null">
+                status = #{productVo.status,jdbcType=TINYINT},
+            </if>
+        </set>
+        where
+        id = #{productVo.id}
+        and account_id = #{userId}
+    </update>
+    <select id="productDetails" resultType="com.inspur.cloud.console.product.entity.ProductDo">
+        SELECT p.id,p.`name`,p.created_time, count(1) secretKeyTotal,p.status,p.producer,p.spec,p.cert_id
+        FROM product p, device d
+        WHERE p.id = d.product_id
+        AND p.id = #{productId}
+        AND p.account_id = #{userId}
+        AND d.is_deleted = 0
+    </select>
+    <select id="qryProductListForPage" resultType="com.inspur.cloud.console.product.entity.DeviceDo">
+        SELECT
+          d.code,
+          d.`created_time`,
+          p.`status`
+        FROM
+          device d,
+          product p
+        WHERE p.id = d.product_id
+          AND d.product_id = #{productId}
+          AND d.account_id = #{userId}
+          AND (d.`code`, d.`created_time`) IN
+          (SELECT
+            d.code,
+            MAX(d.created_time)
+          FROM
+            device d,
+            product p
+          WHERE p.id = d.product_id
+            AND d.product_id = #{productId}
+            AND d.account_id = #{userId}
+          GROUP BY d.code) ORDER BY d.code
+    </select>
+
+
+    <select id="queryProductList" resultType="com.inspur.cloud.console.product.entity.Product">
+        select id, name, description, producer, spec,
+        `status`, account_id, creator_id, created_by,
+        modified_by, product_source, created_time, updated_time,
+        deleted_time, is_deleted
+        from product where account_id = #{userId}
+        <if test="productName != null and productName.length>0">
+            and name like CONCAT('%',#{productName},'%')
+        </if>
+        order by created_time desc,id
+    </select>
+    <select id="getProducts" resultType="com.inspur.cloud.console.product.entity.Product">
+        select id, name, description, producer, spec,
+        `status`, account_id, creator_id, created_by,
+        modified_by, product_source, created_time, updated_time,
+        deleted_time, is_deleted
+        from product where account_id = #{userId}
+        order by created_time desc,id
+    </select>
+    <select id="deviceIsNull" resultType="java.lang.Integer">
+        select count(1)
+        from device d
+        where
+        d.product_id = #{productId}
+        AND d.account_id = #{userId}
+    </select>
+    <select id="productDetail" resultType="com.inspur.cloud.console.product.entity.ProductDo">
+        SELECT p.id,p.`name`,p.created_time, 0 as  secretKeyTotal,p.status,p.producer,p.spec,p.cert_id
+        FROM product p
+        WHERE
+         p.id = #{id}
+         and p.account_id = #{userId}
+    </select>
+    <select id="getProductByName" resultType="java.lang.String">
+        select id from product
+        where account_id = #{userId}
+        and name = #{name}
+    </select>
+</mapper>

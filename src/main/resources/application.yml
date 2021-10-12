@@ -1,0 +1,121 @@
+server:
+  port: 8762
+  tomcat:
+    uri-encoding: UTF-8
+    accesslog:
+      enabled: true
+    max-threads: 500
+    accept-count: 100
+    max-connections: 10000
+spring:
+  liquibase:
+    #true:开启liquibase
+    enabled: false
+    changeLog: "classpath:db/changelog/db.changelog-master.yaml"
+  application:
+    name: i-id-service
+  datasource:
+    # 冒烟151
+    url: jdbc:mysql://10.110.54.151:30062/icp_iid?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true&useSSL=false
+    # 新研发
+    # url: jdbc:mysql://10.110.64.31:30062/icp_iid?useUnicode=true&characterEncoding=UTF8&connectTimeout=10000&socketTimeout=100000&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 123456aB
+    driver-class-name: com.mysql.jdbc.Driver
+    hikari:
+      connection-test-query: SELECT 1
+      minimum-idle: 5
+      maximum-pool-size: 20
+      validation-timeout: 5000
+      connectionInitSql: SELECT 1
+      max-lifetime: 1800000
+      idle-timeout: 600000
+  cache:
+    type: caffeine
+    caffeine:
+      spec: maximumSize=5000,expireAfterWrite=60s
+    cache-names: errorCodeCache,dictCache
+  profiles:
+    #active: dev
+    active: prod
+  redis:
+    host: 10.221.2.6
+    port: 6379
+    password: 123456abc!
+    jedis:
+      pool:
+        max-active: 50
+  rabbitmq:
+    addresses: 10.110.64.31:31675
+    username: guest
+    password: 123456aB
+  jackson:
+    date-format: yyyy-MM-dd'T'HH:mm:ss'Z'
+    time-zone: GMT
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+
+
+keycloak:
+  enabled: true
+  #新增
+  bearer-only: true
+  disable-trust-manager: true
+  #新研发
+  auth-server-url: https://auth-cloud-dev.inspurcloud.cn/auth
+  #auth-server-url: https://iopdev.10.110.25.123.xip.io/auth
+  realm: picp
+  public-client: false
+  credentials:
+    #新研发
+    secret: 71d49987-9971-4877-8179-539a44cf1294
+    #secret: be97c023-1ad2-485f-b83d-d4a64af76758
+  resource: bss-server
+  ssl-required: none
+  cors: true
+  cors-allowed-headers: x-requested-with,Authorization,Content-Type,requestId,attributes
+  cors-allowed-methods: POST, GET, OPTIONS, DELETE, PUT, PATCH
+  cors-max-age: 3600
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml
+  config-location: classpath:mybatis-config.xml
+
+iam:
+  #冒烟
+  #url: http://service.inspurtest.com/auth
+  #新敏捷
+  url: https://service-cloud-dev.inspurcloud.cn/auth
+  #url: http://service.10.110.25.123.xip.io/auth
+  ladon:
+    #url: ${iam.url}
+    #新敏捷
+    url: https://service-cloud-dev.inspurcloud.cn/auth
+    #url: http://10.110.25.71:41840/auth/
+
+resttemplate:
+  header: Attributes, x-b3-traceid,x-b3-spanid,x-b3-parentspanid,x-b3-sampled
+  cookie: realm_roles,username
+  #    cookie: attributes,username
+  #    header: Attributes
+  referer: https://console1.cloud.inspur.com/
+error:
+  code: 809
+
+management:
+  endpoints:
+    web:
+      base-path: /
+      exposure:
+        include: prometheus
+
+  #售卖地区
+region: cn-north-3
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+
+qualink:
+  url: http://10.110.64.31:33112

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inspur.cloud.console.usercert.dao.UserCertDao">
+    <select id="getUserCert" resultType="com.inspur.cloud.console.usercert.entity.UserCert">
+        select
+        id, name, code, account_id, creator_id, main_pub_enc_key, main_pri_enc_key, main_pub_vfy_key, main_pri_vfy_key, created_time
+        from user_cert
+        where account_id = #{accountId}
+    </select>
+
+    <insert id="insertUserCert" parameterType="com.inspur.cloud.console.usercert.entity.UserCert">
+        insert into user_cert
+        (id, name, code, account_id, creator_id, main_pub_enc_key, main_pri_enc_key, main_pub_vfy_key, main_pri_vfy_key, created_time, is_deleted)
+        values
+        (
+            #{userCert.id}, #{userCert.name}, #{userCert.code}, #{userCert.accountId}, #{userCert.creatorId}, #{userCert.mainPubEncKey},
+            #{userCert.mainPriEncKey}, #{userCert.mainPubVfyKey}, #{userCert.mainPriVfyKey}, #{userCert.createdTime}, #{userCert.isDeleted}
+        )
+    </insert>
+
+    <select id="judgeSmNine" resultType="java.lang.Integer">
+        select count(id) from user_cert
+        where account_id = #{accountId} and type = 'SM9'
+    </select>
+
+    <select id="getAllNumber" resultType="com.inspur.cloud.console.kgc.entity.ProductAndDeviceNum">
+        select a.countNum as certNumber, b.countNum as productNumber, c.countNum as deviceNumber
+        from
+        (
+            (select count(id) as countNum from user_cert where account_id = #{accountId}) a,
+            (select count(id) as countNum from product where account_id = #{accountId}) b,
+            (select count(id) as countNum from device where account_id = #{accountId}) c
+        )
+    </select>
+
+    <select id="getUserCertByDeviceId" resultType="com.inspur.cloud.console.usercert.entity.UserCert">
+        select u.id, u.name, u.code, u.account_id, u.creator_id, u.main_pub_enc_key, u.main_pri_enc_key,
+				u.main_pub_vfy_key, u.main_pri_vfy_key, u.created_time, u.rsa_count,
+				u.dns_list, u.ip_list, u.password, u.days
+        from user_cert u LEFT JOIN product p on u.id = p.cert_id left join device d on d.product_id = p.id
+				where  u.account_id = #{userId}
+				 and d.id = #{deviceId}
+    </select>
+    <select id="getUserCertByProductId" resultType="com.inspur.cloud.console.usercert.entity.UserCert">
+        select u.id, u.name, u.code, u.account_id, u.creator_id, u.main_pub_enc_key, u.main_pri_enc_key,
+				u.main_pub_vfy_key, u.main_pri_vfy_key, u.created_time, u.rsa_count,
+				u.dns_list, u.ip_list, u.password, u.days
+         from user_cert u LEFT JOIN product p ON u.id = p.cert_id
+				where u.account_id = #{accountId}
+					and p.id = #{productId}
+    </select>
+</mapper>

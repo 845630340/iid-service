@@ -1,0 +1,544 @@
+[]--[]--2020-10-27 19:02:46.877 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Starting IIDApplication on JiangYuPengdeMacBook-Pro.local with PID 4885 (/Users/jiangyupeng/Java/Company/iid-service/out/production/classes started by jiangyupeng in /Users/jiangyupeng/Java/Company/iid-service)
+[]--[]--2020-10-27 19:02:46.879 DEBUG--[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+[]--[]--2020-10-27 19:02:46.879 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : The following profiles are active: prod
+[]--[]--2020-10-27 19:02:47.024 INFO --[  restartedMain]
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b1447b7: startup date [Tue Oct 27 19:02:47 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:02:47.882 INFO --[  restartedMain]
+                o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'httpSessionManager' with a different definition: replacing [Generic bean: class [org.keycloak.adapters.springsecurity.management.HttpSessionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=httpSessionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/inspur/iam/adapter/config/SecurityConfig.class]]
+[]--[]--2020-10-27 19:02:48.279 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-27 19:02:48.315 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-27 19:02:48.377 INFO --[  restartedMain]
+                o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[]--[]--2020-10-27 19:02:48.795 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[]--[]--2020-10-27 19:02:48.806 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[]--[]--2020-10-27 19:02:48.922 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$64a208d3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-27 19:02:49.037 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e364aa5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-27 19:02:49.258 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$92805d4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-27 19:02:50.091 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+[]--[]--2020-10-27 19:02:50.115 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[]--[]--2020-10-27 19:02:50.115 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[]--[]--2020-10-27 19:02:50.118 INFO --[localhost-startStop-1]
+                o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jiangyupeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[]--[]--2020-10-27 19:02:50.216 INFO --[localhost-startStop-1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[]--[]--2020-10-27 19:02:50.216 INFO --[localhost-startStop-1]
+                o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3193 ms
+[]--[]--2020-10-27 19:02:52.311 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.312 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.312 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.312 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.312 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.313 INFO --[localhost-startStop-1]
+                o.s.b.w.s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[]--[]--2020-10-27 19:02:52.313 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'securityContextFilter' to urls: [/*]
+[]--[]--2020-10-27 19:02:52.313 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpTraceFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.314 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+[]--[]--2020-10-27 19:02:52.314 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakPreAuthActionsFilter was not registered (disabled)
+[]--[]--2020-10-27 19:02:52.314 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticatedActionsFilter was not registered (disabled)
+[]--[]--2020-10-27 19:02:52.314 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakSecurityContextRequestFilter was not registered (disabled)
+[]--[]--2020-10-27 19:02:52.314 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.315 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'repeatedlyReadFilter' to: [/*]
+[]--[]--2020-10-27 19:02:52.315 INFO --[localhost-startStop-1]
+                o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+[]--[]--2020-10-27 19:02:52.332 DEBUG--[localhost-startStop-1]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.init()......
+[]--[]--2020-10-27 19:02:52.504 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-27 19:02:53.583 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+[]--[]--2020-10-27 19:02:53.667 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-27 19:02:53.688 INFO --[  restartedMain]
+                o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[]--[]--2020-10-27 19:02:53.835 INFO --[  restartedMain]
+                org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+[]--[]--2020-10-27 19:02:53.837 INFO --[  restartedMain]
+                org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[]--[]--2020-10-27 19:02:53.891 INFO --[  restartedMain]
+                org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[]--[]--2020-10-27 19:02:54.271 INFO --[  restartedMain]
+                org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[]--[]--2020-10-27 19:02:54.520 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-27 19:02:54.582 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] there is no iam folder in Resource!
+[]--[]--2020-10-27 19:02:54.582 DEBUG--[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] projectPath: /Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/com.inspur.iam/iam-adapter-java/1.9.7/6706f5ae335155c33a45369c1400847f77286669
+[]--[]--2020-10-27 19:02:54.582 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.LiquiabseInit] there is no liquibase-xml in local directory!
+[]--[]--2020-10-27 19:02:54.601 DEBUG--[  restartedMain]
+                com.inspur.iam.adapter.util.VersionUtil  : [VersionUtil.uploadVersion] adaper version: 1.9.7
+[]--[]--2020-10-27 19:02:55.252 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 开始创建RestTemplate-->[tokenType=USER,timeZone=GMT,WriteDatesAsTimestamps=null,referer=https://console1.cloud.inspur.com/,connectionRequestTimeout=0,ConnectTimeout=0,ReadTimeout=0]
+[]--[]--2020-10-27 19:02:55.262 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 创建RestTemplate完成-->org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate@543a1716
+[]--[]--2020-10-27 19:02:55.414 DEBUG--[  restartedMain]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 注入ApplicationContext到SpringContextHolder:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b1447b7: startup date [Tue Oct 27 19:02:47 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:02:55.622 INFO --[  restartedMain]
+                o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@228fcbdd, org.springframework.security.web.context.SecurityContextPersistenceFilter@73208f43, org.springframework.security.web.header.HeaderWriterFilter@585bdf0b, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@774dec7, org.springframework.security.web.authentication.logout.LogoutFilter@3753c0ac, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@16a2dc45, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60f24362, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35578bb9, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@f01cda9, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@81320c3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d6d332b, org.springframework.security.web.session.SessionManagementFilter@1e8d3849, org.springframework.security.web.access.ExceptionTranslationFilter@507286bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ac6893b]
+[]--[]--2020-10-27 19:02:55.725 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'taskExecutor'
+[]--[]--2020-10-27 19:02:55.851 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-27 19:02:55.983 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b1447b7: startup date [Tue Oct 27 19:02:47 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:02:55.995 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in responseResultBodyAdvisor
+[]--[]--2020-10-27 19:02:56.036 WARN --[  restartedMain]
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[]--[]--2020-10-27 19:02:56.168 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.device.controller.DeviceController.querySecretKeyList(int,int,java.lang.String,java.lang.String,java.lang.Integer)
+[]--[]--2020-10-27 19:02:56.169 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/download],methods=[GET]}" onto public void com.inspur.cloud.console.device.controller.DeviceController.downloadDevices(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.Integer) throws java.io.IOException
+[]--[]--2020-10-27 19:02:56.169 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secret],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecret(java.lang.String,java.lang.String)
+[]--[]--2020-10-27 19:02:56.170 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secrets],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecrets(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[]--[]--2020-10-27 19:02:56.171 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<java.util.List<com.inspur.cloud.console.dict.entity.DictItemBean>> com.inspur.cloud.console.dict.controller.DictController.getDictItemByGroupId(java.lang.String)
+[]--[]--2020-10-27 19:02:56.172 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictCache()
+[]--[]--2020-10-27 19:02:56.173 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictGroupCache(java.lang.String)
+[]--[]--2020-10-27 19:02:56.173 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}/items/{itemId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<com.inspur.cloud.console.dict.entity.DictItemBean> com.inspur.cloud.console.dict.controller.DictController.getDictItemByKey(java.lang.String,java.lang.String)
+[]--[]--2020-10-27 19:02:56.174 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<?> com.inspur.cloud.console.dict.controller.DictController.getDict(java.lang.String)
+[]--[]--2020-10-27 19:02:56.174 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/health-status],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.health.HealthController.healthStatus()
+[]--[]--2020-10-27 19:02:56.175 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/delete],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.rootcert.controller.RootCertController.delete()
+[]--[]--2020-10-27 19:02:56.176 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/create],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.rootcert.controller.RootCertController.create()
+[]--[]--2020-10-27 19:02:56.176 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/parse],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.rootcert.controller.RootCertController.parse()
+[]--[]--2020-10-27 19:02:56.176 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/rootCertList],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.rootcert.entity.RootCert> com.inspur.cloud.console.rootcert.controller.RootCertController.queryRootCertList()
+[]--[]--2020-10-27 19:02:56.180 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.productList(java.lang.String,int,int)
+[]--[]--2020-10-27 19:02:56.181 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.product.entity.ProductsVO> com.inspur.cloud.console.product.controller.ProductController.productList()
+[]--[]--2020-10-27 19:02:56.181 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.addProduct(com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-27 19:02:56.181 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}],methods=[PUT]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.updateProduct(java.lang.String,com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-27 19:02:56.182 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail],methods=[GET]}" onto public com.inspur.cloud.console.product.entity.ProductDo com.inspur.cloud.console.product.controller.ProductController.productDetails(java.lang.String)
+[]--[]--2020-10-27 19:02:56.182 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.queryProductList(int,int,java.lang.String)
+[]--[]--2020-10-27 19:02:56.182 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/metrics]}" onto public void com.inspur.cloud.console.prometheus.controller.MetricsController.metrics(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+[]--[]--2020-10-27 19:02:56.183 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/info],methods=[GET]}" onto public com.inspur.cloud.console.usercert.entity.UserCert com.inspur.cloud.console.usercert.controller.UserCertController.getUserCert()
+[]--[]--2020-10-27 19:02:56.183 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/is-open],methods=[GET]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.isOpenService()
+[]--[]--2020-10-27 19:02:56.184 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/opening],methods=[POST]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.openService()
+[]--[]--2020-10-27 19:02:56.184 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/number],methods=[GET]}" onto public com.inspur.cloud.console.kgc.entity.ProductAndDeviceNum com.inspur.cloud.console.usercert.controller.UserCertController.calulateNumber()
+[]--[]--2020-10-27 19:02:56.186 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[]--[]--2020-10-27 19:02:56.187 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[]--[]--2020-10-27 19:02:56.240 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-27 19:02:56.241 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-27 19:02:56.264 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in clientExceptionHandler
+[]--[]--2020-10-27 19:02:56.265 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+[]--[]--2020-10-27 19:02:56.265 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in responseResultBodyAdvisor
+[]--[]--2020-10-27 19:02:56.265 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in commonControllerAdvice
+[]--[]--2020-10-27 19:02:57.157 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService  'taskScheduler'
+[]--[]--2020-10-27 19:02:57.329 INFO --[  restartedMain]
+                o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+[]--[]--2020-10-27 19:02:57.340 INFO --[  restartedMain]
+                o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/prometheus],methods=[GET],produces=[text/plain;version=0.0.4;charset=utf-8]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[]--[]--2020-10-27 19:02:57.505 INFO --[  restartedMain]
+                o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[]--[]--2020-10-27 19:02:57.687 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+[]--[]--2020-10-27 19:02:57.688 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+[]--[]--2020-10-27 19:02:57.695 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+[]--[]--2020-10-27 19:02:57.700 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[]--[]--2020-10-27 19:02:57.703 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+[]--[]--2020-10-27 19:02:57.736 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+[]--[]--2020-10-27 19:02:57.737 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[]--[]--2020-10-27 19:02:57.737 INFO --[  restartedMain]
+                o.s.i.channel.PublishSubscribeChannel    : Channel 'i-id-service.errorChannel' has 1 subscriber(s).
+[]--[]--2020-10-27 19:02:57.737 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+[]--[]--2020-10-27 19:02:57.737 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+[]--[]--2020-10-27 19:02:57.781 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
+[]--[]--2020-10-27 19:02:57.787 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Started IIDApplication in 12.133 seconds (JVM running for 12.689)
+[]--[]--2020-10-27 19:02:57.790 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...begin...
+[]--[]--2020-10-27 19:02:58.102 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...end...
+[]--[]--2020-10-27 19:02:58.302 INFO --[RMI TCP Connection(4)-127.0.0.1]
+                o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [10.110.64.31:31675]
+[]--[]--2020-10-27 19:02:58.307 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]--[]--2020-10-27 19:02:58.307 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+[]--[]--2020-10-27 19:02:58.329 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[]--[]--2020-10-27 19:02:58.613 INFO --[RMI TCP Connection(4)-127.0.0.1]
+                o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#66517dd6:0/SimpleConnection@5f7d8c4f [delegate=amqp://guest@10.110.64.31:31675/, localPort= 54396]
+[]--[]--2020-10-27 19:02:59.403 INFO --[RMI TCP Connection(4)-127.0.0.1]
+                io.lettuce.core.EpollProvider            : Starting without optional epoll library
+[]--[]--2020-10-27 19:02:59.409 INFO --[RMI TCP Connection(4)-127.0.0.1]
+                io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+[]--[]--2020-10-27 19:03:02.289 DEBUG--[      Thread-35]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6b1447b7: startup date [Tue Oct 27 19:02:47 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:03:03.430 INFO --[      Thread-35]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+[]--[]--2020-10-27 19:03:03.437 INFO --[      Thread-35]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[]--[]--2020-10-27 19:03:05.819 DEBUG--[localhost-startStop-2]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.destroy()...
+[]--[]--2020-10-27 19:04:05.786 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Starting IIDApplication on JiangYuPengdeMacBook-Pro.local with PID 5028 (/Users/jiangyupeng/Java/Company/iid-service/out/production/classes started by jiangyupeng in /Users/jiangyupeng/Java/Company/iid-service)
+[]--[]--2020-10-27 19:04:05.788 DEBUG--[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+[]--[]--2020-10-27 19:04:05.789 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : The following profiles are active: prod
+[]--[]--2020-10-27 19:04:05.912 INFO --[  restartedMain]
+                o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14e701c8: startup date [Tue Oct 27 19:04:05 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:04:06.629 INFO --[  restartedMain]
+                o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'httpSessionManager' with a different definition: replacing [Generic bean: class [org.keycloak.adapters.springsecurity.management.HttpSessionManager]; scope=singleton; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in URL [jar:file:/Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/org.keycloak/keycloak-spring-security-adapter/4.6.0.Final/8a42a701686abd300fd73288f1e1ce9807a95dd1/keycloak-spring-security-adapter-4.6.0.Final.jar!/org/keycloak/adapters/springsecurity/management/HttpSessionManager.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=securityConfig; factoryMethodName=httpSessionManager; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [com/inspur/iam/adapter/config/SecurityConfig.class]]
+[]--[]--2020-10-27 19:04:06.931 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-27 19:04:06.959 INFO --[  restartedMain]
+                o.s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+[]--[]--2020-10-27 19:04:07.001 INFO --[  restartedMain]
+                o.s.i.config.IntegrationRegistrar        : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+[]--[]--2020-10-27 19:04:07.358 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+[]--[]--2020-10-27 19:04:07.364 INFO --[  restartedMain]
+                o.s.i.c.DefaultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+[]--[]--2020-10-27 19:04:07.458 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$8c335912] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-27 19:04:07.550 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c5c79ae4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-27 19:04:07.725 INFO --[  restartedMain]
+                o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration$$EnhancerBySpringCGLIB$$30b95613] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[]--[]--2020-10-27 19:04:08.429 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8762 (http)
+[]--[]--2020-10-27 19:04:08.448 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardService : Starting service [Tomcat]
+[]--[]--2020-10-27 19:04:08.448 INFO --[  restartedMain]
+                org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+[]--[]--2020-10-27 19:04:08.451 INFO --[localhost-startStop-1]
+                o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jiangyupeng/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[]--[]--2020-10-27 19:04:08.531 INFO --[localhost-startStop-1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+[]--[]--2020-10-27 19:04:08.532 INFO --[localhost-startStop-1]
+                o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2619 ms
+[]--[]--2020-10-27 19:04:10.370 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.371 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.371 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.371 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.371 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.372 INFO --[localhost-startStop-1]
+                o.s.b.w.s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+[]--[]--2020-10-27 19:04:10.372 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'securityContextFilter' to urls: [/*]
+[]--[]--2020-10-27 19:04:10.372 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'httpTraceFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.373 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticationProcessingFilter was not registered (disabled)
+[]--[]--2020-10-27 19:04:10.373 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakPreAuthActionsFilter was not registered (disabled)
+[]--[]--2020-10-27 19:04:10.373 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakAuthenticatedActionsFilter was not registered (disabled)
+[]--[]--2020-10-27 19:04:10.373 INFO --[localhost-startStop-1]
+                o.s.boot.web.servlet.RegistrationBean    : Filter keycloakSecurityContextRequestFilter was not registered (disabled)
+[]--[]--2020-10-27 19:04:10.373 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'requestFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.374 INFO --[localhost-startStop-1]
+                o.s.b.web.servlet.FilterRegistrationBean : Mapping filter: 'repeatedlyReadFilter' to: [/*]
+[]--[]--2020-10-27 19:04:10.374 INFO --[localhost-startStop-1]
+                o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+[]--[]--2020-10-27 19:04:10.388 DEBUG--[localhost-startStop-1]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.init()......
+[]--[]--2020-10-27 19:04:10.523 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+[]--[]--2020-10-27 19:04:11.140 INFO --[  restartedMain]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+[]--[]--2020-10-27 19:04:11.190 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-27 19:04:11.201 INFO --[  restartedMain]
+                o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[]--[]--2020-10-27 19:04:11.268 INFO --[  restartedMain]
+                org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+[]--[]--2020-10-27 19:04:11.270 INFO --[  restartedMain]
+                org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+[]--[]--2020-10-27 19:04:11.304 INFO --[  restartedMain]
+                org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[]--[]--2020-10-27 19:04:11.603 INFO --[  restartedMain]
+                org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[]--[]--2020-10-27 19:04:11.751 INFO --[  restartedMain]
+                o.s.o.j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[]--[]--2020-10-27 19:04:11.810 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] there is no iam folder in Resource!
+[]--[]--2020-10-27 19:04:11.810 DEBUG--[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.getDirectory] projectPath: /Users/jiangyupeng/.gradle/caches/modules-2/files-2.1/com.inspur.iam/iam-adapter-java/1.9.7/6706f5ae335155c33a45369c1400847f77286669
+[]--[]--2020-10-27 19:04:11.810 WARN --[  restartedMain]
+                c.inspur.iam.adapter.util.LiquibaseUtil  : [LiquibaseUtil.LiquiabseInit] there is no liquibase-xml in local directory!
+[]--[]--2020-10-27 19:04:11.824 DEBUG--[  restartedMain]
+                com.inspur.iam.adapter.util.VersionUtil  : [VersionUtil.uploadVersion] adaper version: 1.9.7
+[]--[]--2020-10-27 19:04:12.360 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 开始创建RestTemplate-->[tokenType=USER,timeZone=GMT,WriteDatesAsTimestamps=null,referer=https://console1.cloud.inspur.com/,connectionRequestTimeout=0,ConnectTimeout=0,ReadTimeout=0]
+[]--[]--2020-10-27 19:04:12.367 DEBUG--[  restartedMain]
+                c.i.i.adapter.config.RestTemplateFactory : 创建RestTemplate完成-->org.keycloak.adapters.springsecurity.client.KeycloakRestTemplate@3ed1a42b
+[]--[]--2020-10-27 19:04:12.520 DEBUG--[  restartedMain]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 注入ApplicationContext到SpringContextHolder:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14e701c8: startup date [Tue Oct 27 19:04:05 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:04:12.680 INFO --[  restartedMain]
+                o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71e700ee, org.springframework.security.web.context.SecurityContextPersistenceFilter@242f2620, org.springframework.security.web.header.HeaderWriterFilter@5744d2d0, org.keycloak.adapters.springsecurity.filter.KeycloakPreAuthActionsFilter@4970610b, org.springframework.security.web.authentication.logout.LogoutFilter@4d758a88, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticationProcessingFilter@7f3d59b1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18fb211, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6abe9f0f, org.keycloak.adapters.springsecurity.filter.KeycloakSecurityContextRequestFilter@3c1f1d06, org.keycloak.adapters.springsecurity.filter.KeycloakAuthenticatedActionsFilter@b01f4b7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@291e8932, org.springframework.security.web.session.SessionManagementFilter@29ed74c, org.springframework.security.web.access.ExceptionTranslationFilter@5d1e58ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bc8a9b7]
+[]--[]--2020-10-27 19:04:12.762 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService  'taskExecutor'
+[]--[]--2020-10-27 19:04:12.872 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-27 19:04:12.967 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14e701c8: startup date [Tue Oct 27 19:04:05 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:04:12.980 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerAdapter : Detected ResponseBodyAdvice bean in responseResultBodyAdvisor
+[]--[]--2020-10-27 19:04:13.028 WARN --[  restartedMain]
+                o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[]--[]--2020-10-27 19:04:13.094 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.device.controller.DeviceController.querySecretKeyList(int,int,java.lang.String,java.lang.String,java.lang.Integer)
+[]--[]--2020-10-27 19:04:13.095 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/download],methods=[GET]}" onto public void com.inspur.cloud.console.device.controller.DeviceController.downloadDevices(javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.Integer) throws java.io.IOException
+[]--[]--2020-10-27 19:04:13.095 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secret],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecret(java.lang.String,java.lang.String)
+[]--[]--2020-10-27 19:04:13.095 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/device/create/secrets],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.device.controller.DeviceController.createSecrets(org.springframework.web.multipart.MultipartFile) throws java.io.IOException
+[]--[]--2020-10-27 19:04:13.097 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictCache()
+[]--[]--2020-10-27 19:04:13.097 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/refresh/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.dict.controller.DictController.refreshDictGroupCache(java.lang.String)
+[]--[]--2020-10-27 19:04:13.098 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}/items/{itemId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<com.inspur.cloud.console.dict.entity.DictItemBean> com.inspur.cloud.console.dict.controller.DictController.getDictItemByKey(java.lang.String,java.lang.String)
+[]--[]--2020-10-27 19:04:13.098 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<?> com.inspur.cloud.console.dict.controller.DictController.getDict(java.lang.String)
+[]--[]--2020-10-27 19:04:13.099 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/dict/groups/{groupId}],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean<java.util.List<com.inspur.cloud.console.dict.entity.DictItemBean>> com.inspur.cloud.console.dict.controller.DictController.getDictItemByGroupId(java.lang.String)
+[]--[]--2020-10-27 19:04:13.099 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/health-status],methods=[GET]}" onto public com.inspur.cloud.common.response.entity.ResponseBean com.inspur.cloud.console.health.HealthController.healthStatus()
+[]--[]--2020-10-27 19:04:13.100 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/delete],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.rootcert.controller.RootCertController.delete()
+[]--[]--2020-10-27 19:04:13.100 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/create],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.rootcert.controller.RootCertController.create()
+[]--[]--2020-10-27 19:04:13.101 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/parse],methods=[GET]}" onto public java.lang.String com.inspur.cloud.console.rootcert.controller.RootCertController.parse()
+[]--[]--2020-10-27 19:04:13.101 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/ca/rootCertList],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.rootcert.entity.RootCert> com.inspur.cloud.console.rootcert.controller.RootCertController.queryRootCertList()
+[]--[]--2020-10-27 19:04:13.106 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[POST]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.addProduct(com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-27 19:04:13.106 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}],methods=[PUT]}" onto public java.lang.String com.inspur.cloud.console.product.controller.ProductController.updateProduct(java.lang.String,com.inspur.cloud.console.product.entity.ProductVo)
+[]--[]--2020-10-27 19:04:13.106 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail],methods=[GET]}" onto public com.inspur.cloud.console.product.entity.ProductDo com.inspur.cloud.console.product.controller.ProductController.productDetails(java.lang.String)
+[]--[]--2020-10-27 19:04:13.107 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.queryProductList(int,int,java.lang.String)
+[]--[]--2020-10-27 19:04:13.107 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product/{productId}/detail/{pageNo}/{pageSize}],methods=[GET]}" onto public com.inspur.cloud.common.page.Page com.inspur.cloud.console.product.controller.ProductController.productList(java.lang.String,int,int)
+[]--[]--2020-10-27 19:04:13.107 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/product],methods=[GET]}" onto public java.util.List<com.inspur.cloud.console.product.entity.ProductsVO> com.inspur.cloud.console.product.controller.ProductController.productList()
+[]--[]--2020-10-27 19:04:13.108 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/metrics]}" onto public void com.inspur.cloud.console.prometheus.controller.MetricsController.metrics(javax.servlet.http.HttpServletResponse) throws java.io.IOException
+[]--[]--2020-10-27 19:04:13.109 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/info],methods=[GET]}" onto public com.inspur.cloud.console.usercert.entity.UserCert com.inspur.cloud.console.usercert.controller.UserCertController.getUserCert()
+[]--[]--2020-10-27 19:04:13.109 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/opening],methods=[POST]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.openService()
+[]--[]--2020-10-27 19:04:13.109 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/is-open],methods=[GET]}" onto public int com.inspur.cloud.console.usercert.controller.UserCertController.isOpenService()
+[]--[]--2020-10-27 19:04:13.110 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/iid/v1/user-cert/number],methods=[GET]}" onto public com.inspur.cloud.console.kgc.entity.ProductAndDeviceNum com.inspur.cloud.console.usercert.controller.UserCertController.calulateNumber()
+[]--[]--2020-10-27 19:04:13.112 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[]--[]--2020-10-27 19:04:13.112 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[]--[]--2020-10-27 19:04:13.163 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-27 19:04:13.164 INFO --[  restartedMain]
+                o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[]--[]--2020-10-27 19:04:13.186 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in clientExceptionHandler
+[]--[]--2020-10-27 19:04:13.186 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+[]--[]--2020-10-27 19:04:13.186 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected ResponseBodyAdvice implementation in responseResultBodyAdvisor
+[]--[]--2020-10-27 19:04:13.186 INFO --[  restartedMain]
+                o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in commonControllerAdvice
+[]--[]--2020-10-27 19:04:13.994 INFO --[  restartedMain]
+                o.s.s.concurrent.ThreadPoolTaskScheduler : Initializing ExecutorService  'taskScheduler'
+[]--[]--2020-10-27 19:04:14.145 INFO --[  restartedMain]
+                o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path ''
+[]--[]--2020-10-27 19:04:14.156 INFO --[  restartedMain]
+                o.s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/prometheus],methods=[GET],produces=[text/plain;version=0.0.4;charset=utf-8]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+[]--[]--2020-10-27 19:04:14.310 INFO --[  restartedMain]
+                o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[]--[]--2020-10-27 19:04:14.479 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+[]--[]--2020-10-27 19:04:14.480 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' has been autodetected for JMX exposure
+[]--[]--2020-10-27 19:04:14.487 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+[]--[]--2020-10-27 19:04:14.492 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+[]--[]--2020-10-27 19:04:14.495 INFO --[  restartedMain]
+                o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+[]--[]--2020-10-27 19:04:14.523 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+[]--[]--2020-10-27 19:04:14.524 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+[]--[]--2020-10-27 19:04:14.524 INFO --[  restartedMain]
+                o.s.i.channel.PublishSubscribeChannel    : Channel 'i-id-service.errorChannel' has 1 subscriber(s).
+[]--[]--2020-10-27 19:04:14.524 INFO --[  restartedMain]
+                o.s.i.endpoint.EventDrivenConsumer       : started _org.springframework.integration.errorLogger
+[]--[]--2020-10-27 19:04:14.524 INFO --[  restartedMain]
+                o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+[]--[]--2020-10-27 19:04:14.565 INFO --[  restartedMain]
+                o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8762 (http) with context path ''
+[]--[]--2020-10-27 19:04:14.570 INFO --[  restartedMain]
+                com.inspur.cloud.IIDApplication          : Started IIDApplication in 9.96 seconds (JVM running for 10.545)
+[]--[]--2020-10-27 19:04:14.574 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...begin...
+[]--[]--2020-10-27 19:04:14.669 INFO --[  restartedMain]
+                c.i.cloud.console.dict.cache.DictCache   : DictCache.refresh()...end...
+[]--[]--2020-10-27 19:04:14.988 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [10.110.64.31:31675]
+[]--[]--2020-10-27 19:04:14.993 INFO --[RMI TCP Connection(1)-127.0.0.1]
+                o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+[]--[]--2020-10-27 19:04:14.993 INFO --[RMI TCP Connection(1)-127.0.0.1]
+                o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+[]--[]--2020-10-27 19:04:15.013 INFO --[RMI TCP Connection(1)-127.0.0.1]
+                o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[]--[]--2020-10-27 19:04:15.089 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#669267f6:0/SimpleConnection@46d6aa8f [delegate=amqp://guest@10.110.64.31:31675/, localPort= 54753]
+[]--[]--2020-10-27 19:04:15.300 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                io.lettuce.core.EpollProvider            : Starting without optional epoll library
+[]--[]--2020-10-27 19:04:15.302 INFO --[RMI TCP Connection(3)-127.0.0.1]
+                io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+[]--[]--2020-10-27 19:04:41.830 DEBUG--[      Thread-20]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.uplaodVersion] begin
+[]--[]--2020-10-27 19:04:42.141 DEBUG--[      Thread-20]
+                com.inspur.iam.adapter.util.IamUtil      : [IamUtil.uplaodVersion] request failed, statusCode: 400responseBody: <?xml version="1.0" encoding="UTF-8"?><Error><Code>InvalidBucketName</Code><BucketName>service-cloud-dev.inspurcloud.cn</BucketName><RequestId>tx0000000000000000511d1-005f97fecc-aeabde20-cn-north-3a</RequestId><HostId>aeabde20-cn-north-3a-cn-north-3</HostId></Error>
+[]--[]--2020-10-27 19:04:59.478 DEBUG--[      Thread-31]
+                c.i.c.s.m.u.spring.SpringContextHolder   : 清除SpringContextHolder中的ApplicationContext:org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14e701c8: startup date [Tue Oct 27 19:04:05 CST 2020]; root of context hierarchy
+[]--[]--2020-10-27 19:05:00.619 INFO --[      Thread-31]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+[]--[]--2020-10-27 19:05:00.625 INFO --[      Thread-31]
+                com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[]--[]--2020-10-27 19:05:02.917 DEBUG--[localhost-startStop-2]
+                c.i.cloud.common.filter.RequestFilter    : RequestFilter.destroy()...
+[]--[]--2020-10-27 20:44:23.655 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey
+[]--[]--2020-10-27 20:44:23.661 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:44:23.663 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:100 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:44:23.747 ERROR--[           main]
+                c.i.c.c.rootcert.service.RootCertService : ============ 创建x509证书失败：{}
+java.lang.Exception: fail to create root cert and key.
+	at com.inspur.cloud.console.rootcert.service.RootCertService.createRootCertAndKey(RootCertService.java:47)
+	at com.inspur.cloud.console.rootcert.filetools.FileUtils.main(FileUtils.java:59)
+[]--[]--2020-10-27 20:45:22.980 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:45:22.986 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:45:22.987 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:100 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:45:23.035 ERROR--[           main]
+                c.i.c.c.rootcert.service.RootCertService : ============ 创建x509证书失败：{}
+java.lang.Exception: fail to create root cert and key.
+	at com.inspur.cloud.console.rootcert.service.RootCertService.createRootCertAndKey(RootCertService.java:47)
+	at com.inspur.cloud.console.rootcert.filetools.FileUtils.main(FileUtils.java:59)
+[]--[]--2020-10-27 20:46:37.128 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:46:37.133 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:46:37.135 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:47:45.856 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:47:45.861 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:47:45.862 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:48:25.133 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:48:25.139 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:48:25.140 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:49:33.077 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:49:33.082 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:49:33.083 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:50:27.819 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:50:27.825 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:50:27.826 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:50:41.724 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ folder path: /Users/jiangyupeng/Desktop/iid-sslkey/
+[]--[]--2020-10-27 20:50:41.729 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ 该目录是否存在：true
+[]--[]--2020-10-27 20:50:41.730 INFO --[           main]
+                c.i.c.c.rootcert.service.RootCertService : ================ create root cert cmd: openssl req -new -x509 -newkey rsa:1024 -days 36500 -keyout /Users/jiangyupeng/Desktop/iid-sslkey/123321.key -out /Users/jiangyupeng/Desktop/iid-sslkey/123321.crt -passout pass:22446688 -subj /C=CN/ST=iid/L=iid/O=iid/OU=iid/CN=ca
+[]--[]--2020-10-27 20:50:41.795 INFO --[           main]
+                c.i.c.c.rootcert.filetools.FileUtils     : successfully write string to file !

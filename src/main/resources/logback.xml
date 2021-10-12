@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <property name="LOG_DIR" value="log/"/>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <appender name="auditlog" class="ch.qos.logback.core.FileAppender">
+        <File>/icp/iccs/audit.log</File>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="com.inspur.logback.JSONLayout4Audit" />
+            <!-- 记录日志的编码 -->
+            <charset>UTF-8</charset> <!-- 此处设置字符集 -->
+        </encoder>
+    </appender>
+
+    <logger name="com.inspur.common.operationlog" level="WARN">
+        <appender-ref ref="auditlog" />
+    </logger>
+    <appender name="LOG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <Prudent>true</Prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>log/%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>180</maxHistory>
+            <totalSizeCap>1GB</totalSizeCap>
+        </rollingPolicy>
+
+
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss} -%msg%n</Pattern>
+        </layout>
+        <encoder>
+            <pattern>[%X{applicationName}]--[%X{requestId}]--%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level--[%15thread{15}]
+                %-40logger{40} : %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>log/%d{yyyy-MM-dd}.error</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <totalSizeCap>50MB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%X{applicationName}]--[%X{requestId}]--%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level--[%15thread{15}]
+                %-40logger{40} : %msg%n
+            </pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%X{applicationName}]--[req-%X{TRACE_ID}]--[%X{requestId}]--%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level --- [%15thread{15}] %-40logger{40} : %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="org" level="INFO"/>
+    <logger name="com.mysql" level="INFO"/>
+    <logger name="sun" level="INFO"/>
+    <logger name="com.netflix" level="INFO"/>
+    <logger name="com.inspur" level="DEBUG"/>
+    <root level="INFO">
+        <appender-ref ref="LOG_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
+        <appender-ref ref="STDOUT" />
+        <!--<appender-ref ref="FILE" />-->
+    </root>
+
+</configuration>

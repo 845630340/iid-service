@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.inspur.cloud.console.rootcert.dao.RootCertMapper">
+    <select id="queryRootCertList" resultType="com.inspur.cloud.console.rootcert.entity.RootCert">
+        select id,cert_name
+        from
+        user_cert u
+        where
+        u.account_id = #{userId}
+        and u.status = 1
+        and u.type = 'X509'
+    </select>
+
+    <insert id="insertRootCert" parameterType="com.inspur.cloud.console.rootcert.entity.RootCert">
+        insert into user_cert
+        (id, name, code, account_id, creator_id, main_pub_enc_key, main_pri_enc_key, main_pub_vfy_key, main_pri_vfy_key,
+        type, cert_name, rsa_count, password, days, status, source, dns_list, ip_list, subject, created_time, updated_time)
+        values
+        (
+            #{rootCert.id}, #{rootCert.name}, #{rootCert.code}, #{rootCert.accountId}, #{rootCert.creatorId}, #{rootCert.mainPubEncKey},
+            #{rootCert.mainPriEncKey}, #{rootCert.mainPubVfyKey}, #{rootCert.mainPriVfyKey}, #{rootCert.type}, #{rootCert.certName}, #{rootCert.rsaCount},
+            #{rootCert.password}, #{rootCert.days}, #{rootCert.status}, #{rootCert.source}, #{rootCert.dnsList}, #{rootCert.ipList}, #{rootCert.subject},
+            #{rootCert.createdTime}, #{rootCert.updatedTime}
+        )
+    </insert>
+
+    <select id="getRootCertDetail" resultType="com.inspur.cloud.console.rootcert.entity.RootCert">
+        select
+        id, name, code, account_id, creator_id, main_pub_enc_key, main_pri_enc_key, main_pub_vfy_key, main_pri_vfy_key,
+        type, cert_name, rsa_count, password, days, status, source, dns_list, ip_list, subject, created_time, updated_time
+        from user_cert
+        where
+        account_id = #{userId} and id = #{id}
+    </select>
+
+    <sql id="updateRootCert">
+        <if test="rootCert.status != null">
+            status = #{rootCert.status},
+        </if>
+        <if test="rootCert.certName != null">
+            cert_name = #{rootCert.certName},
+        </if>
+        updated_time = #{rootCert.updatedTime}
+    </sql>
+
+    <update id="editRootCert" parameterType="com.inspur.cloud.console.rootcert.entity.RootCert">
+        update user_cert
+        set
+        <include refid="updateRootCert"></include>
+        <where>
+            id = #{rootCert.id} and account_id = #{rootCert.accountId}
+        </where>
+    </update>
+
+    <select id="nameValid" resultType="java.lang.Integer">
+        select count(1)
+        from user_cert
+        where account_id = #{userId} and cert_name = #{certName}
+    </select>
+    <select id="qryProductListForPage" resultType="com.inspur.cloud.console.rootcert.entity.RootCert">
+        select
+        id, name, code, account_id, creator_id, main_pub_enc_key, main_pri_enc_key, main_pub_vfy_key, main_pri_vfy_key,
+        type, cert_name, rsa_count, password, days, status, source, dns_list, ip_list, subject, created_time,
+        updated_time
+        from user_cert
+        where
+        account_id = #{userId}
+        <if test="certName !=null and certName != ''">
+            and cert_name like  CONCAT('%',#{certName},'%')
+        </if>
+    </select>
+</mapper>
